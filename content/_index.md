@@ -11,5 +11,15 @@ type: docs
 # bookHref: ''
 # bookIcon: ''
 ---
-# Willkommen
-Dies ist die Startseite. Links solltest du jetzt das Menü sehen
+
+# Software Hygiene
+
+---
+
+# Software Updates
+
+---
+
+# Sichere Quellen
+
+---
