@@ -1,1 +1,0 @@
-# awareness_software_hygiene_und_updates
