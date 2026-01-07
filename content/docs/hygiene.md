@@ -19,8 +19,10 @@ Die Attack Surface beschreibt im Grunde alle Vektoren an denen Angreifer in ein 
 
 Man kann sich das in etwa wie bei einer wissenschaftlichen Arbeit vorstellen: Falls man bereits den Fehler gemacht hat und nach der Abgabe diese nochmal erneut durchzugehen fallen sehr häufig grammatikalische Fehler auf die man hätte vor der Abgabe bereits erkennen müssen. Solche Fehler passieren mehr oder weniger auch bei dem entwickeln von Software. Das kann dann dazu führen dass eine bestimtme Funktion nie richtig funktioniert hat, oder dass nach einem Update auf einmal Teile der Software unüblich verhalten. Das kann aber im schlimmsten Fall auch dazu führen, dass über einen solchen Fehler eine Lücke in eurer Verteidigungslinie euerer Angriffsfläche gefunden hat und diese ausnutzen kann.
 
+## Angreifer
+
+Über welche Wege kann der Angreifer nun durch Software auf das System gelangen? Die zuvor genannten Programmfehler können von einem oder mehreren Angreifern ausgenutzt werden um dann Zugriff auf das gesamte System zu erhalten, bzw. Programme auszuführen die verschiedenste Dinge ausführen ...
+
 ### Exkurs: Supply-Chain-Attacks
 
-Wie bereits erwähnt, ist Software die wir typischerweise auf dem Rechner ist sehr komplex.
-
-Über welche Wege kann der Angreifer nun durch Software auf das System gelangen?
+Wie bereits erwähnt, ist Software die wir typischerweise auf dem Rechner ist sehr komplex. Das hat auch damit zu tun, dass auch noch zusätzlich zum selbst geschrieben Programmcode noch weiter von anderen Biblitotheken kommen. Um in der Analaogie der wissenschaftlichen Arbeit zu bleiben, wären das unsere verwendeten Quellen, die dann unter umständen auf weitere Quellen verweisen. Und genau hier
