@@ -6,13 +6,17 @@ weight: 2
 # Software Updates
 
 ## Grundproblem
-In der [Software Hygiene]({{<ref "hygiene.md">}}) wurde bereits dargelegt, warum es schlecht ist möglichst viel Software auf verschiedenen Geräten zu haben. Jedoch können wir natürlich nicht nur mit einem blanken Betriebssystem ohne Anwendungen produktiv arbeiten. Doch wie arbeitet man mit der Software weiter die dann tatsächlich auf dem Endgerät bleiben soll. 
+
+In der [Software Hygiene]({{<ref "hygiene.md">}}) wurde bereits dargelegt, warum es schlecht ist möglichst viel Software auf verschiedenen Geräten zu haben. Jedoch können wir natürlich nicht nur mit einem blanken Betriebssystem ohne Anwendungen produktiv arbeiten. Doch wie arbeitet man mit der Software weiter die dann tatsächlich auf dem Endgerät bleiben soll.
 
 Es ist hier wichtig diese, sobald eine Aktualisierung veröffentlicht wurde diese zu installieren.
 
 Nach Experten ist das die wichtigste Maßnahme um Sicherheit zu gewärhleisten, noch vor der Nutzung eines Passwortmanagers und der Aktivierung vom 2-Faktor. Diese Aussage stammt aus einer Studie bei der Sicherheitsexperten und Laien über die effektivität von möglichen Umsetzungen befragt wurden. Das spannende aus dieser Studie ist, dass die meisten Laien diese Methode als nicht effektive.
-
 ![Prozentualer Unterschied](image.png)
 
-BILD UNTERSCHIED ODER VERGLEICH VON DER STUDIE EINFÜGEN.
-asda
+Und das führt leider dazu, dass die Software die auf den Rechnern installiert ist zudem viel zu spät aktualisiert werden.
+Hierzu gibt es auch einige Wissenschaftliche Ausarbeitungen: Beispielsweise hat die University of Houston untersucht, wann bestimmte Updates heruntergeladen werden. Dabei wurde festgestellt, das nach über 100 Tagen nach der Veröffentlichung des Updates noch 25 % der Anwender erst installieren. Nach 300 Tagen waren es immernoch ca. 10 %. Das Problem hierbei ist, dass es wiederum von der veröffentlichung eines Updates zur ersten Ausnutzung der darin behobenen Sicherheitslücken nur wenige Stunden bis Tage dauert. Es gibt hier den intial von Mircosoft eingeführten Patch Tuesday. Das ist immer der zweite Dienstag innerhalb eines Monats. An diesem Datum werden immer Sicherheitsupdates für verschiedene Microsoft Produkte veröffentlicht. Dazu gibt es unter Hackern folgendes Sprichtwort: Patch Tuesday, Exploit Wednesday. Der hintergrund dieses Sprichtworts liegt daran, dass anhand dieser Änderungen die an diesem Dienstag veröffentlich werden, verhältnismäßig leicht herauszufinden was nun gefixt wurde mit dem Wissen, dass sehr viele dieses Update erst sehr viel später installieren werden.
+
+-QUELLE die konrekte Verstärkte Ausnutzung zeigt.
+
+Es gibt aber auch Situationen 
