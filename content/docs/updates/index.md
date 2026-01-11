@@ -110,17 +110,17 @@ Treiber und Spezialsoftware werden oft direkt auf den Herstellerseiten angeboten
 
 ### Paketmanager
 
-Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard. Unter Windows gibt es seit einigen Jahren **winget**; für macOS nutzen viele Homebrew.
+Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard. Unter Windows gibt es seit einigen Jahren **winget**; für macOS nutzen viele **Homebrew**.
 
 ## Übersicht Updateverteilung
 
-| Quelle             | Mechanismus                                    | Beispiele                               | Vorteile                   | Empfehlung                                 |
-| ------------------ | ---------------------------------------------- | --------------------------------------- | -------------------------- | ------------------------------------------ |
-| Betriebssystem     | Automatisch; Halbautomatisch; Manuell          | Windows Update, macOS Softwareupdate    | Deckt OS‑Sicherheitslücken | Automatische Updates prüfen/anschalten     |
-| App Store          | Automatisch; Halbautomatisch                   | Google Play, App Store, Microsoft Store | Zentrale Verwaltung        | Automatische App‑Updates aktivieren        |
-| In‑App Updater     | Automatisch; Halbautomatisch; Benachrichtigung | Browser, PDF‑Reader, Spiele             | Schnelle Verfügbarkeit     | Bei Sicherheitshinweis sofort installieren |
-| Herstellerwebseite | Manuell; Halbautomatisch                       | Grafikkartentreiber, Spezialsoftware    | Direkt vom Hersteller      | Nur offizielle Downloads verwenden         |
-| Paketmanager       | Automatisch; Halbautomatisch                   | apt, winget, Homebrew                   | Batch‑Updates              | Für technisch Interessierte geeignet       |
+| Quelle             | Mechanismus                                    | Beispiele                               | Vorteile                   | **Empfehlung**                                      |
+| ------------------ | ---------------------------------------------- | --------------------------------------- | -------------------------- | --------------------------------------------------- |
+| Betriebssystem     | Automatisch; Halbautomatisch; Manuell          | Windows Update, macOS Softwareupdate    | Deckt OS‑Sicherheitslücken | **Automatische Updates prüfen/anschalten**          |
+| App Store          | Automatisch; Halbautomatisch                   | Google Play, App Store, Microsoft Store | Zentrale Verwaltung        | **Automatische App‑Updates aktivieren**             |
+| In‑App Updater     | Automatisch; Halbautomatisch; Benachrichtigung | Browser, PDF‑Reader, Spiele             | Schnelle Verfügbarkeit     | **Regelmäßig nach Udpates suchen und installieren** |
+| Herstellerwebseite | Manuell; Halbautomatisch                       | Grafikkartentreiber, Spezialsoftware    | Direkt vom Hersteller      | **Nur offizielle Downloads verwenden**              |
+| Paketmanager       | Automatisch; Halbautomatisch                   | apt, winget, Homebrew                   | Batch‑Updates              | **Für technisch Interessierte geeignet** UnigetUI   |
 
 ## Empfehlungen
 
