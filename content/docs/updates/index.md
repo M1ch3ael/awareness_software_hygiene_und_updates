@@ -30,7 +30,23 @@ Daher wollen wir nun etwas hinter die Kulissen von einem Update-Prozess schauen 
 
 # Die Folgen
 
-Was passiert aber nun wenn wir Updates einfach nicht installieren. Es gab über die letzten Jahre unzählige Angriffe auf ungepachte (nicht aktualsierte) Anwendungen
+Was passiert aber nun wenn wir Updates einfach nicht installieren? Hierzu gibt und gab es über die letzten Jahre unzählige Angriffe auf ungepachte (nicht aktualsierte) Anwendungen. Eine wollen wir uns etwas genauer anschauen:
+
+## WinRAR
+
+Ist ein Programm das für das Entpacken und Öffnen von Dateien wie .7z, .tar, .rar, .zip Archiven nutzen lässt hierbei gab es in Versionen vor 6.23 folgende Sicheheitslücke, die 2023 Publik wurde:
+Eine Sicherheitslücke hatte dafür gesorgt, dass wenn man ein ZIP-Archiv geöffnet hatte das zwei Dinge enthielt: eine Datei, z. B. Awareness.png sowie einen Ordner! mit dem Namen Awareness.png, dann wurde beim öffnen der PNG in WinRAR beim autmatischen entpacken der Ordner und der darin enthaltene Schadcode ausgeführt.
+Es hätte jeden betreffen können der die Software nicht aktulaisierte und sich eine solche .zip-Datei aus den Internet herunterlädt und öffnet.
+
+## EternalBlue / WannaCry
+
+EternalBlue ist eine alte Sicherheitslücke aus dem Jahr 2017, und betraf bzw. betrifft alte Windows 7 PCs.
+Es gab dort eine Sicherheitslücke die die NSA damals verschwiegen hatte mit dem Codenamen EternalBlue. Die Sicherheitslücke hat es erlaubt über eine alte Version eines Protokolls für den Datei- und Druckerzugriff im Netzwerk ohne Passwort den Computer zu Übernehmen. Der oder die Angreifer können dann alles auf den Rechner tun.
+Gerade 2017 waren hier sehr viele Firmen betroffen
+
+https://www.bbc.com/news/technology-39913630
+Jetzt denkt man sich vielleicht Windows 7 hat heute sowie keiner niemand mehr, aber das stimmt nicht. Laut statcounter haben Stand Ende 2025 immernoch knapp 4 % aller Windows Dekstops Windows 7 installiert, der Support von diesem Betriebssystem lief vor 6 Jahren im Jahr 2020 aus.
+Es wurde bzw. wird weiterhin nach diese Protokol (genauer nach dem Port) gesucht und versucht diese Schwachstelle auszunutzen.
 
 # Das Update
 
@@ -126,5 +142,4 @@ Diese sind gerade unter Linux der Standard wenn es darum geht Anwendungen zu ver
 Unter Linux heißen diese Paketmanger apt, yum, dnf , zypper ...
 Windows besitzt seit 2020 auch einen Paketmanager der vergleichbar ist mit den Paketmanager von Linux. Unter Windows heißt dieser winget (Windows Package Manager).
 
-Anleitung zum aktualisieren
 
