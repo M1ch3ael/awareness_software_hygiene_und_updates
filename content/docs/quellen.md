@@ -18,21 +18,41 @@ Dateien sollten nur von bekannten und seriösen Webseiten heruntergeladen werden
 
 Browser-Erweiterungen und Add-ons bergen ebenfalls Risiken, wenn sie aus inoffiziellen Quellen stammen. Um sicherzugehen, sollten Sie nur Erweiterungen verwenden, die von Ihrem Browser-Anbieter verifiziert oder genehmigt wurden.
 
-### 2. Überprüfen Sie die Webadresse (URL)
-Manche unsicheren Webseiten sind so gestaltet, dass sie wie legitime Seiten aussehen. Bevor Sie etwas herunterladen, sollten Sie die Adresse der Webseite sorgfältig prüfen. Sichere Webseiten verwenden in der Regel verschlüsselte Verbindungen, erkennbar am **HTTPS** und einem **Schlosssymbol** in der Adressleiste. Diese Zeichen signalisieren, dass die Seite den Datenaustausch zwischen Ihrem Browser und dem Server schützt.
+## 2. Überprüfung der Webadresse (URL)
 
-Wenn einer Webseite diese Merkmale fehlen oder sie verdächtig erscheint, ist es sicherer, dort keine Dateien herunterzuladen.
-
-### 3. Achten Sie auf eine sichere Download-Übertragung (HTTPS)
-
-Neben der Seriosität der Webseite ist auch entscheidend, **wie die Datei übertragen wird**. Sichere Download-Quellen stellen Dateien ausschließlich über **verschlüsselte HTTPS-Verbindungen** bereit.
+Unsichere Webseiten sind häufig so gestaltet, dass sie legitimen Seiten täuschend ähnlich sehen. Bevor Software heruntergeladen wird, sollte daher die **Webadresse (URL)** sorgfältig überprüft werden. Seriöse und vertrauenswürdige Webseiten verwenden in der Regel **verschlüsselte Verbindungen**, erkennbar am **HTTPS-Protokoll** sowie am **Schlosssymbol** in der Adressleiste des Browsers.
 
 Eine verschlüsselte Übertragung stellt sicher, dass:
-- die Datei während des Downloads **nicht manipuliert** werden kann,
-- keine Schadsoftware unbemerkt eingeschleust wird,
-- Dritte den Download **weder mitlesen noch verändern** können, etwa in öffentlichen WLAN-Netzen.
 
-Besonders bei Programmen und Installationsdateien ist dieser Schutz wichtig. Achten Sie darauf, dass auch der **direkte Download-Link mit „https://“ beginnt** und nicht auf unbekannte oder externe Server verweist.
+- die heruntergeladene Datei **während des Transfers nicht manipuliert** werden kann,
+- keine **Schadsoftware unbemerkt eingeschleust** wird,
+- Dritte den Download **weder mitlesen noch verändern** können, insbesondere in unsicheren Netzwerken wie öffentlichen WLANs.
+
+Gerade bei **Installationsdateien und Programmen** ist dieser Schutz von besonderer Bedeutung. Zusätzlich sollte darauf geachtet werden, dass auch der **direkte Download-Link** mit `https://` beginnt und **nicht auf unbekannte oder externe Server** weiterleitet.
+
+Fehlen diese Sicherheitsmerkmale oder wirkt eine Webseite ungewöhnlich oder verdächtig, sollte aus Sicherheitsgründen **kein Download durchgeführt** werden.
+
+---
+
+## Beispiel: Download des VLC Media Players
+
+Bei der Suche nach „VLC Player“ über eine Suchmaschine erscheinen häufig mehrere Ergebnisse auf den oberen Plätzen, beispielsweise:
+
+1. https://www.videolan.org  
+2. https://en.vlc.de/
+
+Beide URLs bieten **VideoLAN** an. Die eigentliche Installationsdatei (`.exe`) wird über die Unterseite `/vlc/` bereitgestellt. Für Nutzer stellt sich jedoch häufig die Frage, **welche Seite die richtige und sichere Quelle ist**.
+
+Die empfohlene Vorgehensweise ist:
+
+1. **Offizielle Webseite des Herstellers identifizieren**  
+   Die offizielle Projektseite kann über eine Suchmaschine oder über vertrauenswürdige Informationsquellen wie **Wikipedia** gefunden werden. Wikipedia verweist in der Regel im Abschnitt *Weblinks* auf die korrekte Herstellerseite.
+
+2. **Vertrauenswürdige IT-Portale zur Orientierung nutzen**  
+   Bekannte IT-Fachportale wie **heise.de** verlinken häufig auf die offiziellen Download-Seiten von Softwareprojekten. Nutzer sollten jedoch auch hier darauf achten, dass der Download **direkt auf die Herstellerseite führt** und nicht über Drittanbieter-Installer erfolgt.
+
+Durch diese Vorgehensweise lässt sich das Risiko minimieren, Software aus unsicheren oder manipulierten Quellen zu installieren.
+
 
 ### 4. Vertrauen Sie auf die Sicherheitsfunktionen Ihres Webbrowsers
 
