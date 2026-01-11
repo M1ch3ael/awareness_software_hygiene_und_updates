@@ -28,6 +28,10 @@ So wurde Beispielsweise gesagt, dass es unsicher sei, Updates zu installieren, U
 Bei einer weiteren Studie, der "[A risk assessment study](https://arxiv.org/pdf/2411.06262)" wurde untersucht warum Nutzer Software-Updates verzögern. Dabei wurde festgestellt, dass 50 % der Teilnehmer den Updateprozess nicht verstehen bzw. unabhängig davon 30 % nicht wissen welche Änderungen ein Update mit sich bringt. Es hat sich aber auch gezeigt, dass eine bessere (Risiko)-Information der User zu einem besseren Updateversorgung führt.
 Daher wollen wir nun etwas hinter die Kulissen von einem Update-Prozess schauen und uns anschauen wo wir Informationen zu Updates herausfinden und was dort alles drinstehen kann.
 
+# Die Folgen
+
+Was passiert aber nun wenn wir Updates einfach nicht installieren. Es gab über die letzten Jahre unzählige Angriffe auf ungepachte (nicht aktualsierte) Anwendungen
+
 # Das Update
 
 # Die Aktualisierung
@@ -124,6 +128,3 @@ Windows besitzt seit 2020 auch einen Paketmanager der vergleichbar ist mit den P
 
 Anleitung zum aktualisieren
 
-# Die folgendem
-
-Was passiert aber nun wenn wir Updates einfach nicht installieren. Es gab über die letzten Jahre unzählige Angriffe auf ungepachte (nicht aktualsierte) Anwendungen
