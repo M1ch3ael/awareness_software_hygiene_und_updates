@@ -27,3 +27,10 @@ Regelmäßige Updates sind wichtig für Sicherheit und Stabilität. In diesem Ab
 # [Sichere Quellen]({{<ref "quellen">}})
 
 Verwende nur vertrauenswürdige Quellen für deine Software-Abhängigkeiten. Wir zeigen dir, worauf du achten musst.
+
+
+---
+
+# [Sichere Quellen]({{<ref "aufgaben">}})
+
+Bearbeiten Sie diese durch
