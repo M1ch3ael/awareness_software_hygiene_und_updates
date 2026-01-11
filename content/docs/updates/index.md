@@ -28,6 +28,8 @@ Nutzerinnen und Nutzer nennen verschiedene Gründe, warum sie Updates aufschiebe
 
 ![xkcd Comic](xkcd_comic.png)
 
+> https://xkcd.com/1328/
+
 ## Konkrete Folgen (Beispiele)
 
 ### EternalBlue und WannaCry

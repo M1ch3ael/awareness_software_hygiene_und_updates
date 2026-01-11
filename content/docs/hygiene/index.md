@@ -20,6 +20,8 @@ Mehr Code = mehr Fehler: Große Programme bestehen aus vielen Zeilen Code; Fehle
 
 ![xkcd Comic about Security Holes](xkcd_comic_security_holes.png)
 
+> https://xkcd.com/424/
+
 ## Drittanbieter‑Bibliotheken:
 
 Viele Anwendungen nutzen externe Bibliotheken. Ist eine Bibliothek kompromittiert, betrifft das alle Programme, die sie verwenden.
