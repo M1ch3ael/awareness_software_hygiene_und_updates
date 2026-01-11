@@ -14,7 +14,7 @@ type: docs
 
 # [Software Hygiene]({{<ref "hygiene.md">}})
 
-Hier geht es um die Grundlagen der Software-Hygiene. Du lernst, wie du sauberen Code schreibst und wartbare Systeme entwickelst.
+Warum ist es nicht sinnvoll (aus Sicht der IT-Sicherheit) viel Software auf einem Endgerät zu haben. Was kann das für Auswirkungen haben und was kann man dagegen tun?
 
 ---
 
@@ -28,9 +28,8 @@ Regelmäßige Updates sind wichtig für Sicherheit und Stabilität. In diesem Ab
 
 Verwende nur vertrauenswürdige Quellen für deine Software-Abhängigkeiten. Wir zeigen dir, worauf du achten musst.
 
-
 ---
 
-# [Sichere Quellen]({{<ref "aufgaben">}})
+# [Aufgaben]({{<ref "aufgaben">}})
 
 Bearbeiten Sie diese durch

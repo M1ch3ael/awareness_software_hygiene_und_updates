@@ -26,6 +26,8 @@ Nutzerinnen und Nutzer nennen verschiedene Gründe, warum sie Updates aufschiebe
 - Unverständlicher Prozess: Es ist oft nicht ersichtlich, welche Änderungen ein Update bringt.
 - Manuelle Abläufe: Fehlende Automatisierung macht die Installation aufwändig.
 
+![xkcd Comic](xkcd_comic.png)
+
 ## Konkrete Folgen (Beispiele)
 
 ### EternalBlue und WannaCry
@@ -118,7 +120,7 @@ Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard. Unter Windows gi
 | Herstellerwebseite | Manuell; Halbautomatisch                       | Grafikkartentreiber, Spezialsoftware    | Direkt vom Hersteller      | Nur offizielle Downloads verwenden         |
 | Paketmanager       | Automatisch; Halbautomatisch                   | apt, winget, Homebrew                   | Batch‑Updates              | Für technisch Interessierte geeignet       |
 
-## Empfehlungen für Privatanwender
+## Empfehlungen
 
 - **Automatische Updates aktivieren** für Betriebssystem und Browser.
 - **App‑Store‑Updates erlauben** für alle Apps aus App-Stores.
