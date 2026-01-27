@@ -20,16 +20,16 @@ Warum ist es nicht sinnvoll (aus Sicht der IT-Sicherheit) viel Software auf eine
 
 # [Software Updates]({{<ref "updates">}})
 
-Regelmäßige Updates sind wichtig für Sicherheit und Stabilität. In diesem Abschnitt erfährst du, wie du Updates planst und durchführst.
+Hier erfahren Sie wieso Updates wichtig sind, welche MMechanismen dahinter stecken und wie eine Updatestrategie aussehen kann.
 
 ---
 
 # [Sichere Quellen]({{<ref "quellen">}})
 
-Verwende nur vertrauenswürdige Quellen für deine Software-Abhängigkeiten. Wir zeigen dir, worauf du achten musst.
+Woher bekommt man die Software die man benötigt. Woher weiß ich was sichere Quellen sind und was nicht und was gibt es sonst zu beachten.
 
 ---
 
 # [Aufgaben]({{<ref "aufgaben">}})
 
-Bearbeiten Sie diese durch
+Hier finden sich die Aufgaben für dieses Teilmodul diese müssen für den Leistungsnachweis bearbeitet werden.
