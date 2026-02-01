@@ -24,12 +24,12 @@ Mehr Code = mehr Fehler: Große Programme bestehen aus vielen Zeilen Code; Fehle
 
 Was ggf. wie eine leichte, einfache Software aussieht, wie bspw. den VLC-Player hat in Wahrheit über einer Millionen Zeilen Code von vielen verschiedenen Entwicklern. Hier den Überblick für einzlene zu behalten ist nahezu unmöglich. Alles ist über viele Dateien verteilt was es zwar übersichtlicher macht, jedoch eine Kontrolle nicht wirklich erleichtert. Zudem bauen viele Anwendungen auf sogenannten Bibliotheken bzw. Programmen von anderen auf die ebenfalls komplexit Komplexität einbringen.
 
-![VLC Logo](VLC_Icon.svg?width=90)  
+![VLC Logo](VLC_Icon.svg)
 [Richard C. G. Øiestad](https://commons.wikimedia.org/wiki/File:VLC_Icon.svg) · [GPL](http://www.gnu.org/licenses/gpl.html)
 
-## Drittanbieter‑Bibliotheken:
+# Supply‑Chain‑Risiken
 
-Bei der Entwicklung von Software wird typischerweise auf bereits erstellten bzw. vorhanden Code zurückgegriffen, dadurch reduziert sich der Arbeitsaufwand jedoch ist man dann auf die Arbeit dritter angewiesen. Ist eine solche Software bzw. häufig Bibliothek kompromittiert bzw. infiltiert, betrifft es alle Programme die diese nutzen.
+Wie vorhin in [weiter oben](#warum-viele-programme-problematisch-sind) erklärt ist eine Anwendung meist komplex. Sie basiert auf vierschiedenen anderen Bibliotheken und Entwicklungen anderer, das reduziert zwar den Arbeitsaufwand erheblich man ist jedoch auf die Arbeit dritter angewiesen. Daher ist es auch nicht verwunderlich wenn Angreifer dies auch als Ziel entdeckt haben: Es handelt sich hierbei um sogenannte **Supply‑Chain‑Angriffe**. Diese zielen nämlich nicht direkt auf das Endgerät ab, sondern auf Komponenten, Bibliotheken oder Build‑Prozesse, die viele Anwendungen verwenden. Wird eine zentrale Komponente kompromittiert, kann Schadcode in zahlreiche Programme gelangen. Deshalb ist es wichtig, nicht nur die eigenen Programme, sondern auch deren Herkunft und Vertrauenswürdigkeit zu beachten.
 
 ## Unnötige Dienste:
 
@@ -37,9 +37,19 @@ Auch Programme bzw. Dienste die typischerweise auf dem Desktop im Hintergrund la
 Hintergrunddienste, die nicht benötigt werden, bieten zusätzliche Einfallstore. Gerade unter Windows schleichen sich in Installtionen verschiedenste Programme ein die einen Eintrag in den Autostart legen und entsprechend jedes mal starten wenn der Rechner startet.
 Auch werden bestimmte Anwendungen erst gestartet wenn ein bestimmtes Ereignis eintritt. Gerade hier schleichen sich verschiendste Schadsoftware in den Rechner ein, bzw. sorgen dafür nicht mehr gelöscht werden zu können.
 
-## Browser Plugins
+https://www.heise.de/tipps-tricks/Autostart-aufraeumen-und-Windows-Start-beschleunigen-3929316.html?hg=2&hgi=1&hgf=false
 
-Auch Browser Plugins können zur Gefahr werden. Da die meisten Extensions bzw. Erweiterungen für ihre berechtigte bzw. gewünschte Funktion teilweise weitreichende Berechtigungen benötigt, ist es umso schwerer Erweiterungen diese von Erweiterungen zu unterscheiden die diese Berchtigungen ausnutzen um den Nutzer zu schaden.
+## Browser Addons
+
+Auch Browser Plugins können zur Gefahr werden. Da die meisten Extensions bzw. Erweiterungen für ihre berechtigte bzw. gewünschte Funktion teilweise weitreichende Berechtigungen benötigt, ist es umso schwerer Erweiterungen diese von Erweiterungen zu unterscheiden die diese Berchtigungen ausnutzen um den Nutzer zu schaden. Aber auch das ändern der Suchmaschine oder Startseite von Addons führt dazu, dass teilweise Dubiose Firmen informationen über den Suchverlauf und entsprechend auch über Interessen erhalten. Auch können Cookies entwendet werden oder neue verteilt werden, über letzteres kann dann Schadcode den Computer erreichen.
+
+https://www.kaspersky.de/blog/dangers-of-browser-extensions/29283/
+
+# Berechtigungen von Anwendungen
+
+Was im Bezug auf Browser Plugins gilt, gilt insbesondere auch für Anwendungen und Apps. In erste Linie sind (unbegründete) Berechtigungen die man typischerweise aus mobilen Betriebssystemen kennt ein Datenschutzrisiko, bzw. können dafür sorgen, dass z. B. Fotos oder Geolokalisationsdaten bei Firmen und Personen landen die diese für die Bereitstellung des Services, der App oder Anwendung garnicht benötigen. Jedoch sind Berechtigungen auch für Angreifer wichtig die diese teilweise benötigten um Schaden am System anzurichten. Auch bei Betriebssystemen für den Desktop sind können Berechtigungen dafür sorgen, dass die Privatsphäre verletzt wird zumden. So können unter Umständen Kamera und Tonaufnahmen unbemerkt erstellt werden. Es können mithilfe des freigegeben Standard, Bewegungsprofile bzw. Rückschlüsse auf den Wohnort, den Arbeitsort, bzw. auf Routinen gemacht werden.
+
+## Beispiele
 
 https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/browser-extensions/
 
@@ -53,13 +63,9 @@ Ausnutzung (Exploit): Gefundene Schwachstellen werden genutzt, um Schadcode ausz
 
 Persistenz und Ausbreitung: Nach erfolgreichem Zugriff versucht der Angreifer, Zugang zu halten und sich ggf. im Netzwerk auszubreiten.
 
-# Supply‑Chain‑Risiken
-
-**Supply‑Chain‑Angriffe** zielen nicht direkt auf das Endgerät, sondern auf Komponenten, Bibliotheken oder Build‑Prozesse, die viele Anwendungen verwenden. Wird eine zentrale Komponente kompromittiert, kann Schadcode in zahlreiche Programme gelangen. Deshalb ist es wichtig, nicht nur die eigenen Programme, sondern auch deren Herkunft und Vertrauenswürdigkeit zu beachten.
-
 # Konkrete Beispiele
 
-Ungepatchte Programme: Wenn ein Programm ein bekanntes Sicherheitsproblem hat und kein Update installiert wird, kann ein Angreifer diese Lücke nutzen.
+**KONKRETER**
 
 Manipulierte Archive: Schadarchive können beim Entpacken Code ausführen, wenn die Software fehlerhaft mit Dateinamen oder Pfaden umgeht.
 
@@ -67,8 +73,11 @@ Komplexe Bibliotheken: Eine kompromittierte Bibliothek kann viele Anwendungen gl
 
 # Empfehlungen
 
-- Unnötige Programme deinstallieren. Alles was nicht mehr aktiv genutzt wird.
-- Browser-Erweiterungen kontrollieren und nur vertrauenwürdige Add-Ons behalten
-- Die Berchtigungen von Anwendungen prüfen
-- Autostarts regelmäßig prüfen
-- Vorher ggf. Backup bzw. Systemwiederherstellungspunkt erstellen
+Doch was kann man gemacht werden um diese Probleme zu beheben bzw. die Attack Surface/Angriffsfläche zu reduzieren? Es geht hier darum die Anzahl der Software auf Endgeräten zu reduzieren. Man kann sich also folgende Fragen stellen: Braucht es wirklich diese neue App etwas vermeitlich besser kann, muss die Erweiterung die ich seit Jahren nicht mehr benötige noch im Browser installiert sein. Braucht mein Taschenrechner auf dem Handy oder PDF Viewer auf dem PC wirklich Zugriff auf die Kamera?
+
+Konkret heißt das, dass sich folgendes angeschaut werden sollte:
+
+- Unnötige Programme deinstallieren. Alles was nicht aktiv genutzt wird.
+- Das selbe gilt für Browser-Erweiterungen ggf. auch in verschiedenen Browsern. Nur vertrauenswürdige und benötigte Add-Ons behalten.
+- Zudem sollten hin und wieder sich angeschaut werden welche Programme beim Systemstart gestartet werden
+- Und es sollte hin und wieder geprüft werden, welche Anwendungen sich aufgrund von bestimmten Bedingungen aufgerufen bzw. gestartet werden.
