@@ -51,7 +51,30 @@ Was im Bezug auf Browser Plugins gilt, gilt insbesondere auch für Anwendungen u
 
 ## Beispiele
 
+### Addons
+
 https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/browser-extensions/
+https://www.crowdstrike.com/en-us/blog/latam-ecrime-malware-evolution-2024/
+https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis
+**https://www.koi.ai/blog/google-and-microsoft-trusted-them-2-3-million-users-installed-them-they-were-malware**
+https://arxiv.org/html/2503.04292v1
+https://www.ndr.de/nachrichten/netzwelt/Nackt-im-Netz-Millionen-Nutzer-ausgespaeht,nacktimnetz100.html
+**https://www.kuketz-blog.de/wot-addon-wie-ein-browser-addon-seine-nutzer-ausspaeht/**
+
+### Supply Chain Attacken
+
+**https://www.wired.com/story/british-airways-data-breach-gdpr-fine/**
+**https://en.wikipedia.org/wiki/XZ_Utils_backdoor**
+
+### Berechtigungen
+
+https://www.heise.de/news/Trojaner-App-CamScanner-auf-mehr-als-100-Millionen-Android-Geraeten-installiert-4508174.html
+https://netzpolitik.org/2020/video-app-tiktok-liest-aus-was-menschen-auf-dem-iphone-in-die-zwischenablage-kopiert-haben/
+https://www.ftc.gov/news-events/news/press-releases/2013/12/android-flashlight-app-developer-settles-ftc-charges-it-deceived-consumers
+https://www.heise.de/news/Werbebetrug-Google-wirft-Hersteller-aus-App-Store-4409289.html
+
+
+### Unnötige Dienste 
 
 # Typische Angriffsabläufe
 
