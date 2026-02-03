@@ -53,6 +53,8 @@ Was im Bezug auf Browser Plugins gilt, gilt insbesondere auch für Anwendungen u
 
 ### Addons
 
+Im Juli 2025 wurde bekannt das ingesamt 18 Erweiterungen von Chrome, die teilweise von Google verifiziert waren und über 2 Millionen Nutzer hatten alle besuchten Webseiten, inklusive Tracking IDs an einen Webserver gesendet hat und ggf. auf eine andere Webseite weitergeleitet hatte. Darunter sind unter anderem ein Farb-Picker, verschiedene Unlocker/VPNs für Discord, Tiktok und eine Sucherweiterung mit ChatGPT. Die Anwendungen bringen auf den ersten Blick ihre Funktionen mit und waren lange Zeit auch Problematisch. Erst einem automatischen Update, das unbemerkt die Funktion einführte wurden diese Webseiten weitergeleitet (Warum man dennoch Updates trotz potenzieller Gefahren automatisch installieren sollte, wird in [Software Hygiene]({{<ref "updates.md">}})). Bei diesen Angriff handelt es sich um ein sogenannten Man-in-the-Middle Angriff, der Angreifer hat also vollständigen Zugriff auf den Datenverkehr zwischen dem Nutzer und dem Browser.
+
 https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/browser-extensions/
 https://www.crowdstrike.com/en-us/blog/latam-ecrime-malware-evolution-2024/
 https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis
@@ -63,7 +65,10 @@ https://www.ndr.de/nachrichten/netzwelt/Nackt-im-Netz-Millionen-Nutzer-ausgespae
 
 ### Supply Chain Attacken
 
+Zwischen dem 14 August und dem 5 September 2018 wurden bei British Airways mehrere hunderttausdend Zahlungs- sowie Kontaktdaten von Kunden an Angreifer weitergeleitet, die zuvor nicht direkt British Airways kompromittiert hatten, sondern ein Konto eines Mitarbeiters der Firma Swissport übernommen, welche der weltgrößte Serviceanbieter für Fluggesellschaften ist.
+Über diesen Account wurde dann das Netzwerk durchsucht und ein Admin-Account kompromittiert. Der Admin Account hatte wiederum rechte den Code der British Airways Seite zu verändern. Diese hat über eine veränderte Java-Script Bibliothek dann alle Zahlungsdaten an die Seite die Seite "baways.com" weitergleitet, diese wurde wiederum von den Angreifern kontrolliert.
 **https://www.wired.com/story/british-airways-data-breach-gdpr-fine/**
+https://baways.com
 **https://en.wikipedia.org/wiki/XZ_Utils_backdoor**
 
 ### Berechtigungen
@@ -73,8 +78,7 @@ https://netzpolitik.org/2020/video-app-tiktok-liest-aus-was-menschen-auf-dem-iph
 https://www.ftc.gov/news-events/news/press-releases/2013/12/android-flashlight-app-developer-settles-ftc-charges-it-deceived-consumers
 https://www.heise.de/news/Werbebetrug-Google-wirft-Hersteller-aus-App-Store-4409289.html
 
-
-### Unnötige Dienste 
+### Unnötige Dienste
 
 # Typische Angriffsabläufe
 
