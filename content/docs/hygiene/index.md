@@ -69,6 +69,12 @@ Im März 2018 wurden Systeme von Piriform von Angreifern übernommen, dem Herste
 
 https://www.wired.com/story/inside-the-unnerving-supply-chain-attack-that-corrupted-ccleaner/
 
+### Log4J / Log4Shell
+
+Die Bibliothek Log4j ist ein Programm für das Loggen bzw. Sammeln von Informationen während der Ausführung einer Anwendung. Diese Framework ist das meistgenutzte Logging-Framework der Welt und wird in unzähligen Anwendungen und Diensten verwendet, wie z. B. Amazon, Steam, Apple. Ein Angreifer mit eine Anfrage an einen verwundbaren Server schickt, danach hat er vollen Zugriff auf diesen hat. Auch hier hatte Apache die Entwickler hinter diesem Framework schnell ein Patch bereitgestellt. Da jedoch die diese Anwendung durchaus komplex war zog sich das installieren der Updates sehr lange und sorf
+
+### British Airways
+
 Zwischen dem 14 August und dem 5 September 2018 wurden bei British Airways mehrere hunderttausdend Zahlungs- sowie Kontaktdaten von Kunden an Angreifer weitergeleitet, die zuvor nicht direkt British Airways kompromittiert hatten, sondern ein Konto eines Mitarbeiters der Firma Swissport übernommen, welche der weltgrößte Serviceanbieter für Fluggesellschaften ist.
 Über diesen Account wurde dann das Netzwerk durchsucht und ein Admin-Account kompromittiert. Der Admin Account hatte wiederum rechte den Code der British Airways Seite zu verändern. Diese hat über eine veränderte Java-Script Bibliothek dann alle Zahlungsdaten an die Seite "baways.com" weitergleitet, diese wurde wiederum von den Angreifern kontrolliert.
 **https://www.wired.com/story/british-airways-data-breach-gdpr-fine/**
@@ -93,26 +99,6 @@ https://www.heise.de/news/Werbebetrug-Google-wirft-Hersteller-aus-App-Store-4409
 Data Broker Files hinzufügen?
 
 https://netzpolitik.org/2025/databroker-files-neuer-datensatz-enthuellt-40-000-apps-hinter-standort-tracking/
-
-### Unnötige Dienste
-
-# Typische Angriffsabläufe
-
-Aufklärung (Reconnaissance): Angreifer oder automatisierte Scanner suchen nach erreichbaren Geräten, offenen Ports oder bekannten Diensten.
-
-Schwachstellensuche: Es wird geprüft, ob installierte Software bekannte Sicherheitslücken hat.
-
-Ausnutzung (Exploit): Gefundene Schwachstellen werden genutzt, um Schadcode auszuführen, Daten zu stehlen oder Kontrolle zu erlangen.
-
-Persistenz und Ausbreitung: Nach erfolgreichem Zugriff versucht der Angreifer, Zugang zu halten und sich ggf. im Netzwerk auszubreiten.
-
-# Konkrete Beispiele
-
-**KONKRETER**
-
-Manipulierte Archive: Schadarchive können beim Entpacken Code ausführen, wenn die Software fehlerhaft mit Dateinamen oder Pfaden umgeht.
-
-Komplexe Bibliotheken: Eine kompromittierte Bibliothek kann viele Anwendungen gleichzeitig gefährden.
 
 # Empfehlungen
 

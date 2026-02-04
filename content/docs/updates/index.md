@@ -34,12 +34,17 @@ Nutzerinnen und Nutzer nennen verschiedene Gründe, warum sie Updates aufschiebe
 
 ### EternalBlue und WannaCry
 
-EternalBlue ist eine Schwachstelle im SMB‑Protokoll, die 2017 bekannt wurde (CVE‑2017‑0144). Sie wurde von der Schadsoftware WannaCry massenhaft ausgenutzt und infizierte Hunderttausende Rechner weltweit, darunter Krankenhäuser und Unternehmen. Systeme ohne aktuelle Patches blieben anfällig. **(Quelle ergänzen)**
+EternalBlue ist eine Schwachstelle im SMB‑Protokoll, die 2017 bekannt wurde (CVE‑2017‑0144). Sie wurde von der Schadsoftware WannaCry massenhaft ausgenutzt und infizierte Hunderttausende Rechner weltweit, darunter Krankenhäuser und Unternehmen. Dabei wird eine Lücke in einem alten Dienst (SMBv1) unter Windows benutzt, der eigentlich dazu dient um Dateien und Drucker im Netzwerk zu teilen. Zwar hatte Microsoft schnell einen Patch veröffentlicht der das Problem behebt, hatten viele Organisationen diesen nicht installiert.
+https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/
+https://www.freecodecamp.org/news/eternalblue-explained-an-analysis-of-the-windows-flaw/
 
-### WinRAR
+https://www.youtube.com/watch?v=88jkB1V6N9w
 
+### Log4J / Log4Shell
+das Programm Log4j ist eine Bibliothek
 In älteren WinRAR‑Versionen (vor 6.23) wurde 2023 eine Schwachstelle öffentlich, die manipulierte ZIP‑Archive ausnutzte. Unter bestimmten Bedingungen konnte beim Entpacken Schadcode ausgeführt werden. Nutzerinnen und Nutzer ohne aktuelles Update waren gefährdet. **(Quelle: CVE‑Eintrag / Hersteller‑Advisory ergänzen)**
-
+https://www.verfassungsschutz-bw.de/,Lde/Startseite/Arbeitsfelder/Angreifer+nutzen+Schwachstelle+in+WinRAR+aus
+https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Schwachstelle-log4Shell-Java-Bibliothek/log4j_node.html
 ## Was ist ein Update
 
 Eine Aktualisierung bringt Software auf den neuesten Stand, indem sie Fehler behebt, Funktionen ergänzt oder Sicherheitslücken schließt. Entwicklerinnen und Entwickler veröffentlichen in der Regel **Changelogs** oder **Release Notes**, die Änderungen in Kategorien wie Neu, Verbesserungen, Fehlerbehebungen und Sicherheit auflisten. Sicherheitsrelevante Einträge sind besonders zeitkritisch.
