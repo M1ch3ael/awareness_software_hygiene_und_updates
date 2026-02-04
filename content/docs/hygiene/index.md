@@ -51,7 +51,7 @@ Was im Bezug auf Browser Plugins gilt, gilt insbesondere auch für Anwendungen u
 
 ## Beispiele
 
-### Addons
+### Browser Addons
 
 Im Juli 2025 wurde bekannt das ingesamt 18 Erweiterungen von Chrome, die teilweise von Google verifiziert waren und über 2 Millionen Nutzer hatten alle besuchten Webseiten, inklusive Tracking IDs an einen Webserver gesendet hat und ggf. auf eine andere Webseite weitergeleitet hatte. Darunter sind unter anderem ein Farb-Picker, verschiedene Unlocker/VPNs für Discord, Tiktok und eine Sucherweiterung mit ChatGPT. Die Anwendungen bringen auf den ersten Blick ihre Funktionen mit und waren lange Zeit auch Problematisch. Erst einem automatischen Update, das unbemerkt die Funktion einführte wurden diese Webseiten weitergeleitet (Warum man dennoch Updates trotz potenzieller Gefahren automatisch installieren sollte, wird in [Software Hygiene]({{<ref "updates.md">}})). Bei diesen Angriff handelt es sich um ein sogenannten Man-in-the-Middle Angriff, der Angreifer hat also vollständigen Zugriff auf den Datenverkehr zwischen dem Nutzer und dem Browser.
 
@@ -65,18 +65,34 @@ https://www.ndr.de/nachrichten/netzwelt/Nackt-im-Netz-Millionen-Nutzer-ausgespae
 
 ### Supply Chain Attacken
 
+Im März 2018 wurden Systeme von Piriform von Angreifern übernommen, dem Hersteller der von Avast aufgekauft und das Tool "CCleaner entwickelt. Dabei hatten Angreifer sich über eine Remote-Desktop-Konto zugriff zu einen Entwickler-PC verschafft. Von dort haben sie sich weiter im den Netzwerken der Firma augekundschaftet und die Updateserver infiltriert und bei einer bestimmten Version des CCleaners ein Update so verändert, dass des den Angreifern ermöglichte Code bzw. Maleware aus der Ferne auszuführen. Es hat insgesamt 2,27 Millionen Nutzer betroffen die innerhalb eines Zeitraums 9 Tagen diese Update installiert hatten. Zwar hat sich herausgestellt, dass die Angreifer speizell Firmen wie Samsung, Sony, Epson angreifen wollten und der Rest als "Beifang" gewertet werden kann, jedoch war diese Sicherheitslücke auf diesen über zwei Millionen Geräten installiert. Ein weiteres Update, das kurz nach bekannt werden der Sicherheitslücke bereitgestellt wurde, hat das Problem behoben.
+
+https://www.wired.com/story/inside-the-unnerving-supply-chain-attack-that-corrupted-ccleaner/
+
 Zwischen dem 14 August und dem 5 September 2018 wurden bei British Airways mehrere hunderttausdend Zahlungs- sowie Kontaktdaten von Kunden an Angreifer weitergeleitet, die zuvor nicht direkt British Airways kompromittiert hatten, sondern ein Konto eines Mitarbeiters der Firma Swissport übernommen, welche der weltgrößte Serviceanbieter für Fluggesellschaften ist.
-Über diesen Account wurde dann das Netzwerk durchsucht und ein Admin-Account kompromittiert. Der Admin Account hatte wiederum rechte den Code der British Airways Seite zu verändern. Diese hat über eine veränderte Java-Script Bibliothek dann alle Zahlungsdaten an die Seite die Seite "baways.com" weitergleitet, diese wurde wiederum von den Angreifern kontrolliert.
+Über diesen Account wurde dann das Netzwerk durchsucht und ein Admin-Account kompromittiert. Der Admin Account hatte wiederum rechte den Code der British Airways Seite zu verändern. Diese hat über eine veränderte Java-Script Bibliothek dann alle Zahlungsdaten an die Seite "baways.com" weitergleitet, diese wurde wiederum von den Angreifern kontrolliert.
 **https://www.wired.com/story/british-airways-data-breach-gdpr-fine/**
 https://baways.com
 **https://en.wikipedia.org/wiki/XZ_Utils_backdoor**
 
+https://www.heise.de/news/Google-Play-Werbe-Plugin-BeiTaAD-sabotierte-Millionen-von-Android-Geraeten-4440324.html
+
 ### Berechtigungen
 
-https://www.heise.de/news/Trojaner-App-CamScanner-auf-mehr-als-100-Millionen-Android-Geraeten-installiert-4508174.html
+Ein Fall bei dem erteilte Berechtigungen sehr weiterichende Folgen haben kann ist die sogennante Anatsa Banking Trojaner unter Android, der über getarnte Apps aus dem Google Play Store, wie ein QR-Code Scanner oder Smartphone Reiniger auf das Smartphone kommt. Diese Apps fragen verschiedene Berechtigungen wie den Zugriff auf SMS und die sogennante Accesibility Options bzw. Bedinenhilfen. Letzere ist sehr weitreichent und gewährt einer App Zugriff auf den gesamten Bildschrim auch von anderen Apps, zudem darf diese Apps mit anderen Apps interagieren uns Sensoren verfolgen. Mit diesen Berechtigungen können dann Zugangsdaten aus Banking App gelesen werden und Transaktikonen ausführen, zudem können Kryptowallets leergeräumt werden.
+
+Aber auch unter iOS gibt es Malware die versucht Passwörter zu stehen. Die sogenannte SparkCat Malware wird auch wieder über den Play Store als auch den App Store verteilt. Diese App fordern Zugriff auf die Fotogalarie in iOS. Mit dieser Berechtigung scannt die Anwendung die Fotos nach vorgegebenen Schlüsselbegriffen und extrahiert mögliche Treffer auf den Server der Angreifer. Hier sind hauptsächlich Kryptowallets im Visier aber auch Passwörter und Benutzernamen werden weitergeleitet.
+
+https://www.heise.de/news/Klaut-Passwoerter-aus-Screenshots-Stealer-Apps-erstmals-im-App-Store-gesichtet-10273411.html
+https://www.zscaler.com/de/blogs/security-research/technical-analysis-anatsa-campaigns-android-banking-malware-active-google
+https://www.zscaler.com/de/blogs/security-research/technical-analysis-anatsa-campaigns-android-banking-malware-active-google
 https://netzpolitik.org/2020/video-app-tiktok-liest-aus-was-menschen-auf-dem-iphone-in-die-zwischenablage-kopiert-haben/
 https://www.ftc.gov/news-events/news/press-releases/2013/12/android-flashlight-app-developer-settles-ftc-charges-it-deceived-consumers
 https://www.heise.de/news/Werbebetrug-Google-wirft-Hersteller-aus-App-Store-4409289.html
+
+Data Broker Files hinzufügen?
+
+https://netzpolitik.org/2025/databroker-files-neuer-datensatz-enthuellt-40-000-apps-hinter-standort-tracking/
 
 ### Unnötige Dienste
 
