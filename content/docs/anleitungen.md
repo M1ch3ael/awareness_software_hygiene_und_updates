@@ -41,9 +41,16 @@ Ist das nicht vorhanden kann eine App entfernt werden, indem Sie in den Papierko
 
 ### Android
 
+**Anmerkung**: Da Android je Gerätehersteller andere Einstellungen bereitstellt fokussiert sich diese Anleitung an einem Pixel Gerät. Die Vorgehenweise sollte dennoch ähnlich sein.
+Es gibt unter Android viele verschiedene Möglichkeiten eine Übersicht über alle Apps zu erhalten. Beispielsweise lassen sich die meisten über den App-Drawer bzw. die Anzeige die beim nach oben wischen dargestellt wird anzeigen. Von dort können Anwendungen dann über das wischen nach oben zu "Deinstallieren" entfernt werden.
+
+Zudem besteht die Möglichkeit Apps über die Einstellungen zu deinstallieren. Die Übersicht ist wie folgt zu finden -> Einstellungen -> Apps -> Alle Apps zu finden. Beim Klick auf eine App lässt sich diese auch hier wieder über "Deinstallieren" löschen.
+
+Es gibt außerdem noch die Option sich Apps über den Google Play Store anzuzeigen, hier bietet die Übersicht den nicht zu unterschätzenden Vorteil, dass Apps nach der Nutzungshäufigkeit sortiert werden können. Hierduch können dann unter Umständen nicht genutzte Apps einfacher indentifiziert werden. Diese Einstellung ist unter dem Profil -> Initialien/Profilbild oben rechts -> Apps und Gerät verwalten -> im Reiter oben "Verwalten" -> rechts von App und Spiele Sortieren nach -> Am seltesten verwendet
+
 ### iOS
 
----
+Unter iOS können Anwendungen wie folgt angezeigt und deinsntaliert werden. Einstellungen -> Allgemein -> iPhone Speicher. Durch das swipen nach Rechts kann mit App löschen eine Anwendung vom iPhone bzw. iPad gelöscht werden.
 
 ## Autostart
 
@@ -100,6 +107,22 @@ Das Ziel ist es Updates möglichst schnell zu installieren. Das funktioniert am 
 
 Automatische Updates sind für das Betriebssystem Windows selbst als Standardeinstellung aktiviert. Manuell kann nach Updates über Einstellungen -> Updates und Sicherheit bzw. Windows Update gesucht werden. Ein Zugriff zu dieser Anzeige ist auch unter diesem Link möglich: [Windows Update](ms-settings:windowsupdate?activationSource=SMC-IA-4027667)
 
+## Microsoft Stores
+
+Auch im Microsoft Store können automatische Updates aktiviert werden. Über das Profilbild bzw. die Initialien (Kreis oben rechts) können die "Store-Einstellungen" aufgerufen werden. Dort können über "App-Updates" die automatischen Updates aktiviert werden.
+
+## macOS
+
+## Betriebssystem
+
+Automatische Updates können unter macOS innerhalb der Systemeinstellungen überprüft und ggf. eingeschalten werden. Die entsprechende Einstellung findet sich unter Systemeinstellungen -> Allgemein -> Softwareupdate -> neben Automatische Updates kann zwischen drei Kategorien ausgewählt werden, dieser Schritt muss mit Fertig bestätigt werden. Die Automatischen Updates sollten aber auf jeden Fall gesetzt werden.
+
+## App Store
+
+Standardmäßig informiert der App Store über neue Updates. Es gibt auch hier die Möglichkeit Apps Automatisiert zu aktualisieren. Das kann wie folgt aktiviert werden App Store (öffnen) -> Einstellungen -> Automatische Updates
+
+---
+
 ### Software aus dem Internet
 
 #### Automatische Updates
@@ -118,18 +141,12 @@ Der Ort an dem diese Informationen bereitgestellt werden ist jedoch bei den meis
 
 Updates bzw. die aktuelle Version werden bei Anwendungen häufig unter einem Punkt wie Über / Hilfe / Info gezeigt. Dort kann auch, sofern vorhanden nach neuen Versionen gesucht und diese ggf. gleich installiert werden. Die Suche nach Updates wird häufig mit "Nach Updates/Aktualisierungen suchen" gestartet. Die aktuelle Version, die ggf. mit einer neuen Version vom Hersteller verglichen werden kann ist häufig unter Über zu finden. Leider ist dies nicht vollständig vereinheitlicht, jedoch sind diese zumindest ein Anhaltspunkt für das suchen solcher Optionen.
 
-### Stores
-
-## Apple
-
-## Betriebssystem
-
-### Software aus dem Internet
-
-### Automatische Updates
-
-### Halbautomatische Updates
-
-### Manuelle Updates
-
 ## Addons
+
+## Firefox (und Forks wie Waterfox/Librewolf/Floorp)
+
+Addons können in Firefox automatisch aktualisiert werden die entsprechende Einstellung findet sich unter dem Bürgermenu -> Addons und Themes -> Zahnrad-Symbol auf der rechten Seite -> Add-ons automatisch aktualisieren.
+
+## Chromium-basiert (Chrome, Edge, Brave, Opera)
+
+Chrome-basierte Browser aktualiseren ihre Addons in der Regel selbst ohne das zutun des Anwenders. Auch das manuelle Suchen nach Updates ist in der Standardansicht nicht möglich. Um aktualisierungen zu erzwingen ist es nötig in den in den Erweiterungseinstellungen den Entwicklermodus zu aktivieren. Bürgermenu -> Erweiterungen -> Erweiterungen verwalten. in diesem Fenster kann über den Entwicklermodus Regler der Button "Aktualisieren" angzeigt werden. Über diesen kann dann das aktualsieren der Addons erzwungen werden.
