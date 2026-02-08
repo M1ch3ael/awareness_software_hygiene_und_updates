@@ -41,4 +41,45 @@ Die Option und der Uninstaller ist hier zu bevorzugen. Sofern man die Anwendung 
 
 Unter MacOS ist es abhängig von der App, wie diese möglichst restlos entfernt werden kann.
 Einige Apps fügen beim installieren auch eine separate App für das deinstallieren der App bereit. Einige Apps bieten auch eine Option bzw. Funkiton "Deinstallieren" über die Anwendungen vergleichbar zur vorhiergen Methode entfernt werden können. Falls diese beiden Optionen bei der zu deinstallierenden App der Fall verfügbar ist, ist dieser Weg den nun genannten zu bevorzugen, da hier Chaches bzw. systembezogene Daten zusätzlich entfernt werden, die andernfalls noch auf dem Mac gespeichert werden.
-Ist das nicht vorhanden kann eine App entfernt werden, indem Sie in den Papierkorb gezogen wird. Dieser muss zu vollständigen deinstallation dann geleert werden.
+Ist das nicht vorhanden kann eine App entfernt werden, indem Sie in den Papierkorb gezogen wird. Dieser muss zu vollständigen Deinstallation dann geleert werden.
+
+## Linux
+
+...
+
+# Autostart
+
+Innerhalb vom Autostart können sich beispielsweise Schad- oder Adware persistieren, bzw. hierdurch auch nach dem ausschlaten und ggf. löschen der infizierten Datei wieder erneut ausbreiten. Daher ist es sinnvoll auch hier sich zumindest mal anzuschauen was bzw. welche Programme beim Start des Betriebsystems alle auch gestartet werden.
+
+## Windows
+
+Für Windows 10/11 können Programme die automatisch mit Windows gestartet werden über den Taskmanager verwaltet werden. Im Taskmamager angelagt können über den Reiter (Windows 10 oben/11 rechte Seite) "Autostart von Apps" einzelne Programme über oben deaktivieren bzw. rechtsklick -> deaktivieren deaktiviert werden.
+
+## Mac
+
+Unter MacOS können Autostart-Programme über die Systemeinstellungen eingesehen werden. Über die Systemeinstellungen muss als nächstes die Einstellung Benutzer & Gruppen gewählt werden. Sind mehrere Nutzer vorhanden muss auf der linken Seite der jeweilige Benutzer bzw. die Benutzerin gewählt werden. auf der rechten Seite wird werden dann die Anwendungen angzeigt, die beim Start automatisch geöffnet werden. Von hier aus können Programme entfernt werden, indem Sie ausgewählt werden und auf das "-" geklickt wird.
+
+## Linux
+
+# Browser-Addons
+
+Jeder Browser bietet die Möglichkeit Addons an einer zentralen Stelle zu verwalten. Da die meisten Browsern auf Chrome bzw. Firefox aufbauen und Safari auf Desktop sowie Smartphones von Apple vorinstalliert ist konziert sich die Anleitung auf diese drei Browser.
+
+## Chromium-basiert (Chrome, Edge, Brave, Opera)
+
+Addons in Chrome(ium)basierten Browsern wie Edge, Opera und Brave sowie auch Google Chrome können über die drei Punkte bzw. das Burgermenü (oben rechts) Erweiterungen -> Erweiterungen verwalten überprüft und entfernt werden.
+
+Über den Schieberegler können Addons deaktiviert werden. Sie bleiben aber im Browser enthalten und können bei bedarf wieder aktiviert werden.
+
+Über "Entfernen" können diese aus dem Browser entfernt werden
+
+## Firefox (und Forks)
+
+In Firefox sind Addons über die Menüschaltfläche (Burger-Menü) -> Erweiterungen und Themes zu erreichen. Bei Klick hierauf gelangt man zu der Übersicht aller installierten Addons. Diese können über den Schieberegeler deaktiviert oder über die drei Punkte -> Entfernen gelöscht werden.
+Themes können über den Reiter auf der linken Seite über die drei Punkte gelöscht werden.
+
+## Safrai
+
+In Safari können Addons über Einstellungen -> Erweiterungen verwaltet werden.
+Addons können in Safari über die Checkbox auf der linken Seite des Icons de- bzw. aktiviert werden.
+Beim Klick auf das Icon bzw. das Addon wird unterhalb Zusammenfassung Deinstallationsbutton angzezeigt. Über diesen können einzelne Erweiterungen deinstalliert werden.
