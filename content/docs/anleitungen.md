@@ -157,8 +157,16 @@ Chrome-basierte Browser aktualiseren ihre Addons in der Regel selbst ohne das zu
 
 iPhone bzw. iPads können über wie folgt aktulaisiert werden. Einstellungen -> Allgemein -> Softwareupdate -> Laden und Installieren. Updates können unter "Automatische Updates" automatisch aktualsiert werden. Es stehen hierbei das automatische Installieren oder das automatische Herunterlande zu verfügung.
 
+## App-Updates
+
+Unter iOS und dem App-Store (für alternative App Stores bitte die Dokumentation beachten) können automatische App-Updates Einstellungen -> Apps -> App Store -> App-Updates entweder deaktiviert bzw. aktiviert werden.
+
 # Android
 
 ## System-Updates
 
-Unter Android können Softwareupdates über die Einstellungen installiert werden. Über System -> Softwareupdates/Systemupdates können können Updates gesucht werden und installiert werden. Android lädt Softwareupdates in der Regel selbst runter. Für die installation ist meist ein Neustart nötig.
+Unter Android können Softwareupdates über die Einstellungen installiert werden. Über System -> Softwareupdates/Systemupdates können können Updates gesucht werden und installiert werden. Hier gibt es nun eine weitere Einstellung über die "Automatische Updates" aus bzw. eingeschalten werden kann
+
+## App-Updates
+
+Im Google Play Store (für andere alternative App Stores bitte die entsprechende Dokuentation beachten) können automatische Updates wie folgt installiert werden: Play Store -> Initialien/Profilbild oben rechts -> Einstellungen -> Netzwerkwerkeinstellungen -> Apps automatisch aktualisieren -> Je nach Datentarif einer der drei (von 4) Optionen wählen.
