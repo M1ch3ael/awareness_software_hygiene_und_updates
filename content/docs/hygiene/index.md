@@ -16,7 +16,8 @@ Die Angriffsfläche (engl. attack surface) umfasst alle Komponenten eines System
 
 ## Warum viele Programme problematisch sind
 
-Mehr Code = mehr Fehler: Große Programme bestehen aus vielen Zeilen Code; Fehler und Schwachstellen können sich einschleichen.
+Mehr Code = mehr Fehler: Programme werden immer Komplexer und bestehen aus vielen Zeilen Code; Fehler und Schwachstellen können sich einschleichen.
+Eine Schwachstelle ist wiederum ein Fehler in einer Softwarem durch die ein Computer angreifbar wird.
 
 ![xkcd Comic about Security Holes](xkcd_comic_security_holes.png)
 
