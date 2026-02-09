@@ -100,14 +100,6 @@ Solche Beispiele zeigen, dass selbst alltägliche Downloads ein Risiko darstelle
 
 ---
 
-## 5. Fazit
-
-Sichere Software-Downloads haben nichts mit Misstrauen zu tun, sondern mit **Bewusstsein und Aufmerksamkeit**.  
-Wer die Quelle prüft, auf eine verschlüsselte Verbindung achtet und integrierte Sicherheitsfunktionen nutzt, kann das Risiko deutlich reduzieren.
-
-Durch diese einfachen Maßnahmen lässt sich das Internet sicherer und souveräner nutzen – auch bei täglichen und scheinbar harmlosen Downloads.
-
----
 
 ## Quellen und weiterführende Informationen
 
