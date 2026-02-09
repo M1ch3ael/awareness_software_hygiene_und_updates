@@ -150,3 +150,15 @@ Addons können in Firefox automatisch aktualisiert werden die entsprechende Eins
 ## Chromium-basiert (Chrome, Edge, Brave, Opera)
 
 Chrome-basierte Browser aktualiseren ihre Addons in der Regel selbst ohne das zutun des Anwenders. Auch das manuelle Suchen nach Updates ist in der Standardansicht nicht möglich. Um aktualisierungen zu erzwingen ist es nötig in den in den Erweiterungseinstellungen den Entwicklermodus zu aktivieren. Bürgermenu -> Erweiterungen -> Erweiterungen verwalten. in diesem Fenster kann über den Entwicklermodus Regler der Button "Aktualisieren" angzeigt werden. Über diesen kann dann das aktualsieren der Addons erzwungen werden.
+
+# iOS
+
+## System-Updates
+
+iPhone bzw. iPads können über wie folgt aktulaisiert werden. Einstellungen -> Allgemein -> Softwareupdate -> Laden und Installieren. Updates können unter "Automatische Updates" automatisch aktualsiert werden. Es stehen hierbei das automatische Installieren oder das automatische Herunterlande zu verfügung.
+
+# Android
+
+## System-Updates
+
+Unter Android können Softwareupdates über die Einstellungen installiert werden. Über System -> Softwareupdates/Systemupdates können können Updates gesucht werden und installiert werden. Android lädt Softwareupdates in der Regel selbst runter. Für die installation ist meist ein Neustart nötig.
