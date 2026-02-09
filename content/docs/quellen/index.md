@@ -5,7 +5,11 @@ weight: 3
 
 # Sichere Quellen
 
-Das Herunterladen von Dateien gehört zum Alltag, egal ob es sich um Software, Dokumente, Bilder oder Lernmaterialien handelt. Doch nicht jede Datei im Internet ist vertrauenswürdig. Manche Downloads können schädliche Software enthalten, die darauf ausgelegt ist, Ihr Gerät persönliche Informationen zu stehlen.
+Das Herunterladen von Dateien gehört heute zum Alltag – sei es Software, Dokumente, Bilder oder Lernmaterialien. Allerdings ist nicht jede Datei im Internet vertrauenswürdig. 
+
+Eine sichere Softwarequelle stellt sicher, dass Programme unverändert, authentisch und vor Manipulation oder Beschädigung geschützt sind – sowohl während des Downloads als auch bei der Nutzung. 
+
+Unsichere Downloads können Schadsoftware enthalten, die darauf ausgelegt ist, Geräte zu infizieren oder persönliche Daten zu stehlen.
 
 ## 1. Dateien ausschließlich von vertrauenswürdigen Webseiten herunterladen
 
@@ -50,11 +54,7 @@ Die offizielle Projektseite von VLC lautet:
 
 `https://www.videolan.org`
 
-Achten Sie auf:
-
-- korrekte Schreibweise der Domain  
-- seriöses Impressum  
-- keine Weiterleitungen auf fremde Server  
+Achten Sie auf korrekte Schreibweise der Domain, seriöses Impressum  oder Weiterleitungen auf fremde Server  
 
 ### Schritt 3: HTTPS richtig einordnen
 
@@ -66,18 +66,11 @@ Wichtig:
 - Auch eine gefälschte Seite kann HTTPS nutzen.  
 - `mircosoft.com` wirkt ähnlich wie `microsoft.com`, ist aber eine andere Domain.  
 
-HTTPS schützt lediglich davor, dass:
-
-- Daten während der Übertragung manipuliert werden  
-- Dritte in öffentlichen Netzwerken mitlesen können  
+HTTPS schützt lediglich davor, dass Daten während der Übertragung manipuliert werden oder dass, dritte in öffentlichen Netzwerken mitlesen können  
 
 ### Schritt 4: Download-Link prüfen
 
-Gerade bei Installationsdateien sollte zusätzlich kontrolliert werden:
-
-- Beginnt der Download mit `https://`?  
-- Erfolgt keine Weiterleitung auf unbekannte Server?  
-- Stammt die Datei direkt vom Hersteller?  
+Gerade bei Installationsdateien sollte zusätzlich kontrolliert werden. Beginnt der Download mit `https://`?. Erfolgt keine Weiterleitung auf unbekannte Server?. Stammt die Datei direkt vom Hersteller?  
 
 Wirkt eine Webseite ungewöhnlich oder verdächtig, sollte kein Download durchgeführt werden.
 
