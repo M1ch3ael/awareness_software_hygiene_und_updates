@@ -21,7 +21,7 @@ Sehr viele Menschen unterschätzen den Nutzen von Softwareupdates. Sicherheitsex
 
 ## Gründe für Verzögerungen
 
-Aber aus welchen Gründen werden Updates nicht zeitnah eingespielt? Einige Studien haben dies untersucht und folgende Hauptthemen herausgearbeitet:
+Aber aus welchen Gründen werden Updates nicht zeitnah eingespielt? Einige Studien haben dies untersucht und folgende Hauptthemen herausgearbeitet[^1][^2]:
 
 - Unklarer Nutzen: Wie oben bereits erklärt ist vielen der Nutzen eines Updates gar nicht bewusst. Häufig wird ein Update nur wegen der neuen Funktionen installiert, nicht aber weil die Sicherheit verbessert wurde.
 - Angst vor Problemen: Zudem könnten Updates auch bösartigen Inhalt mithliefern bzw. neue Fehler beinhalten.
@@ -39,16 +39,14 @@ Hierfür gibt es unzählige Beispiele, wir schauen uns hier konrekt zwei Fälle 
 
 ### EternalBlue und WannaCry
 
-EternalBlue ist eine Schwachstelle im SMB‑Protokoll, die 2017 bekannt wurde (CVE‑2017‑0144). Sie wurde von der Schadsoftware WannaCry massenhaft ausgenutzt und infizierte Hunderttausende Rechner weltweit, darunter Krankenhäuser und Unternehmen. Dabei wird eine Lücke in einem alten Dienst (SMBv1) unter Windows benutzt, der eigentlich dazu dient um Dateien und Drucker im Netzwerk zu teilen. Zwar hatte Microsoft schnell einen Patch veröffentlicht der das Problem behebt, hatten viele Organisationen diesen nicht installiert.
+EternalBlue ist eine Schwachstelle im SMB‑Protokoll, die 2017 bekannt wurde (CVE‑2017‑0144). Sie wurde von der Schadsoftware WannaCry massenhaft ausgenutzt und infizierte Hunderttausende Rechner weltweit, darunter Krankenhäuser und Unternehmen. Dabei wird eine Lücke in einem alten Dienst (SMBv1) unter Windows benutzt, der eigentlich dazu dient um Dateien und Drucker im Netzwerk zu teilen. Zwar hatte Microsoft schnell einen Patch veröffentlicht der das Problem behebt, hatten viele Organisationen diesen nicht installiert [^3].
 
-Hierzu findet sich hier ein Video von Computerphile die
-https://www.youtube.com/watch?v=88jkB1V6N9w
+Ein Ausführliches Video über die Hintergründe und die Auswirkungen vom Computerphile findet sich hier: https://www.youtube.com/watch?v=88jkB1V6N9w
 
 ### WinRAR
 
-WinRAR ist ein Packprogramm, das auf vielen Windowsrechner installiert. Daher ist es immer wieder ein belibtes Ziel von Angriffen. Zuletzt bzw. immernoch wird eine Schwachstelle ausgenutzt, die es ermöglicht, über speziell perparierte Dateien (z. B. PDFs) in den Ordner für die Startprogramme zu schreiben und dort eine Malware zu platzieren, die beim nächsten Log-in automatisch gestartet wird. Diese Sicherheitslücke mit dem Namen CVE-2025-8088 besteht bereits seit Mitte des Jahres 2025. Diese wurde im selben Monat gepacht, also die Sicherheitlücke gestopft, und dennoch wird noch Ende Januar von verschiedenen Akteuren weiter ausgenutzt.
+WinRAR ist ein Packprogramm, das auf vielen Windowsrechner installiert. Daher ist es immer wieder ein belibtes Ziel von Angriffen. Zuletzt bzw. immernoch wird eine Schwachstelle ausgenutzt, die es ermöglicht, über speziell perparierte Dateien (z. B. PDFs) in den Ordner für die Startprogramme zu schreiben und dort eine Malware zu platzieren, die beim nächsten Log-in automatisch gestartet wird. Diese Sicherheitslücke mit dem Namen CVE-2025-8088 besteht bereits seit Mitte des Jahres 2025. Diese wurde im selben Monat gepacht, also die Sicherheitlücke gestopft, und dennoch wird noch Ende Januar von verschiedenen Akteuren weiter ausgenutzt [^4].
 
-https://www.heise.de/news/Angriffe-auf-WinRAR-Luecke-laufen-weiter-11157132.html
 https://www.youtube.com/watch?v=rkMNOC8fhUQ
 
 # Updates besser verstehen
@@ -125,7 +123,7 @@ Treiber oder Software von kleinen Entwicklerteams werden häufig auch nur auf de
 
 ### Paketmanager
 
-Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard für das Verwalten von Software. Diese dort häufig den Terminal gesteuert, einige Distribution bieten jedoch auch eine Benutzeroberfläche über die Updates und Installationen komfortabel verwaltet werden können. Vergleichbares gibt es unter Windows seit einigen Jahren mit **winget**. Diese ist direkt von Microsoft und bietet den Vorteil, dass Anwendungen von Microsoft überprüft werden, jedoch ist das (wie auch unter Linux) nicht perfekt und auch über diese können theoretisch Schadprogramme verteilt werden, nichtdestotrotz bieten diese eine Aktualisierung für Software ohne diese öffnen zu müssen. Vergleichbares findet sich für macOS mit **Homebrew**.
+Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard für das Verwalten von Software. Diese dort häufig den Terminal gesteuert, einige Distribution bieten jedoch auch eine Benutzeroberfläche über die Updates und Installationen komfortabel verwaltet werden können. Vergleichbares gibt es unter Windows seit einigen Jahren mit **winget**[^5]. Diese ist direkt von Microsoft und bietet den Vorteil, dass Anwendungen von Microsoft überprüft werden, jedoch ist das (wie auch unter Linux) nicht perfekt und auch über diese können theoretisch Schadprogramme verteilt werden, nichtdestotrotz bieten diese eine Aktualisierung für Software ohne diese öffnen zu müssen. Vergleichbares, wenn auch nicht so mächtig, findet sich für macOS mit **Homebrew**[^6].
 
 ## Übersicht Updateverteilung
 
@@ -144,9 +142,18 @@ Was sollte man nun konkret umsetzen um Software möglichst schnell zu aktualisie
 - Überall wo die Option angeboten wird **automatische Updates aktiveren**. Das verhindert, dass man Updates vergisst, jetzt gerade keine Zeit dafür hat oder Angst vor einen Update hat.
   - das gilt inbesondere für das **Betriebsystem**
   - und den **Browser** (lässt sich heutzutage selten _ausschalten_)
-- Zudem sollten auch Updates für Software beachtet werden die nicht in der "ersten Reihe" steht:
+- Zudem sollten auch Updates für Software beachtet werden die nicht in der "ersten Reihe" stehen:
   - Browser-Addons aktualisieren,
   - Erweiterungen und Mods in Spielen,
-  - Router-Software,
+  - Router-Firmware,
+  - Bibliotheken die manche Software mitinstalliert, bspw. Java Runtime Environment
   - ...
 - **Bei manuellen Downloads** sollte genau geprüft werden ob es sich um die offizielle Herstellerseiten handelt **App‑Store‑Updates erlauben** für alle Apps aus App-Stores.vgl [Sichere Quellen]({{<ref "quellen.md">}}).
+
+[^3]: https://www.heise.de/news/EternalBlue-Hunderttausende-Rechner-ueber-alte-NSA-Schwachstelle-infizierbar-4167918.html
+
+[^4]: https://www.heise.de/news/Angriffe-auf-WinRAR-Luecke-laufen-weiter-11157132.html
+
+[^5]: https://learn.microsoft.com/de-de/training/modules/explore-windows-package-manager-tool/4-update-software
+
+[^6]: https://docs.brew.sh/FAQ#how-do-i-update-my-local-packages
