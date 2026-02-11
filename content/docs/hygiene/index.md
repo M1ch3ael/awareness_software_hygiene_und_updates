@@ -7,68 +7,30 @@ weight: 1
 
 # Einleitung
 
-Software‑Hygiene bedeutet, die auf Geräten installierte Software bewusst zu verwalten, zu pflegen und unnötige Programme zu entfernen. Ziel ist es, die Angriffsfläche zu verkleinern, Sicherheitsrisiken zu reduzieren und die Stabilität sowie Performance der Geräte zu verbessern. Hier wird nun erklärt, warum das wichtig ist, wie Angriffe typischerweise ablaufen, welche Risiken besonders relevant sind und welche konkreten, leicht umsetzbaren Maßnahmen Privatanwenderinnen und ‑anwender ergreifen können.
+Software‑Hygiene bedeutet, die auf Geräten installierte Software bewusst zu verwalten, zu pflegen und unnötige Programme zu entfernen. Ziel ist es, die **Angriffsfläche** zu verkleinern, Sicherheitsrisiken zu reduzieren und die Stabilität sowie Performance der Geräte zu verbessern. Warum das immer wichtiger wird, welche Risiken besonders relevant sind und welche konkreten, leicht umsetzbaren Maßnahmen ergriffen werden können, wird hier nun erläutert.
 
-# Die Angriffsfläche verstehen
+# Was ist die Angriffsfläche?
 
-Was ist die Angriffsfläche
-Die Angriffsfläche (engl. attack surface) umfasst alle Komponenten eines Systems, über die ein Angreifer potenziell eindringen kann: installierte Programme, Dienste, Treiber, Browser‑Plugins, Hintergrundprozesse und Netzwerkdienste. Jede zusätzliche Anwendung oder Bibliothek vergrößert diese Fläche.
+Die Angriffsfläche (engl. attack surface) umfasst alle Komponenten eines Systems, über die ein Angreifer potenziell eindringen kann: Installierte Programme, Dienste, Treiber, Browser‑Plugins, Hintergrundprozesse und Netzwerkdienste. Jede zusätzliche Anwendung oder Bibliothek vergrößert diese Fläche.
 
 ## Warum viele Programme problematisch sind
 
-Mehr Code = mehr Fehler: Programme werden immer Komplexer und bestehen aus vielen Zeilen Code; Fehler und Schwachstellen können sich einschleichen.
-Eine Schwachstelle ist wiederum ein Fehler in einer Softwarem durch die ein Computer angreifbar wird.
+Mehr Code = mehr Fehler: Programme werden immer Komplexer und bestehen aus vielen Zeilen Code. Da Code meistens von Menschen geschrieben wird schleichen sich über die Zeit immer wieder Fehler ein. Zwar muss ein Fehler nicht gleich zu einer Schwachstelle werden. Er wird aber dann zum Problem, wenn der Fehler an einer kritischen Stelle passiert und somit als Schwachstelle in einer Software ein Gerät angreifbar macht.
 
 ![xkcd Comic about Security Holes](xkcd_comic_security_holes.png)
 
 > https://xkcd.com/424/
 
-Was ggf. wie eine leichte, einfache Software aussieht, wie bspw. den VLC-Player hat in Wahrheit über einer Millionen Zeilen Code von vielen verschiedenen Entwicklern. Hier den Überblick für einzlene zu behalten ist nahezu unmöglich. Alles ist über viele Dateien verteilt was es zwar übersichtlicher macht, jedoch eine Kontrolle nicht wirklich erleichtert. Zudem bauen viele Anwendungen auf sogenannten Bibliotheken bzw. Programmen von anderen auf die ebenfalls komplexit Komplexität einbringen.
+Was ggf. wie eine leichte, einfache Software aussieht, wie bspw. den VLC-Player ist in Wirklichkeit ein durchaus großes Projekt. Es besteht aus über einer Millionen Zeilen Code von vielen verschiedenen Entwicklern. Hier den Überblick für einzlene zu behalten ist nahezu unmöglich. Zudem ist alles ist über viele Dateien verteilt was es zwar übersichtlicher macht, jedoch eine Kontrolle nicht wirklich erleichtert. Zudem bauen viele Anwendungen auf sogenannten Bibliotheken bzw. Programmen von anderen auf, die ebenfalls Komplexität einbringen. Wenn nun bei nur bei jeder 1000-2000sten Zeile ein Fehler passiert sind das bei einer Millionen Zeilen Code dennoch zwischen 500-1000 Fehler in einem Software Projekt wie dem VLC-Player.
 
 ![VLC Logo](VLC_Icon.svg)
 [Richard C. G. Øiestad](https://commons.wikimedia.org/wiki/File:VLC_Icon.svg) · [GPL](http://www.gnu.org/licenses/gpl.html)
 
 # Supply‑Chain‑Risiken
 
-Wie vorhin in [weiter oben](#warum-viele-programme-problematisch-sind) erklärt ist eine Anwendung meist komplex. Sie basiert auf vierschiedenen anderen Bibliotheken und Entwicklungen anderer, das reduziert zwar den Arbeitsaufwand erheblich man ist jedoch auf die Arbeit dritter angewiesen. Daher ist es auch nicht verwunderlich wenn Angreifer dies auch als Ziel entdeckt haben: Es handelt sich hierbei um sogenannte **Supply‑Chain‑Angriffe**. Diese zielen nämlich nicht direkt auf das Endgerät ab, sondern auf Komponenten, Bibliotheken oder Build‑Prozesse, die viele Anwendungen verwenden. Wird eine zentrale Komponente kompromittiert, kann Schadcode in zahlreiche Programme gelangen. Deshalb ist es wichtig, nicht nur die eigenen Programme, sondern auch deren Herkunft und Vertrauenswürdigkeit zu beachten.
+Wie vorhin [weiter oben](#warum-viele-programme-problematisch-sind) erklärt, ist eine Anwendung meist komplex. Sie basiert heutzutage auf vierschiedenen anderen Bibliotheken und Entwicklungen anderer, das reduziert zwar den Arbeitsaufwand erheblich, es führt aber auch dazu, dass man auf die Arbeit dritter angewiesen ist. Daher ist es auch nicht verwunderlich wenn Angreifer dies auch als Ziel entdeckt haben: Es handelt sich hierbei um sogenannte **Supply‑Chain‑Angriffe**. Diese zielen nämlich nicht direkt auf das Endgerät ab, sondern auf Komponenten, Bibliotheken oder Build‑Prozesse, die viele Anwendungen verwenden. Wird eine zentrale Komponente kompromittiert, kann Schadcode in zahlreiche Programme gelangen. Deshalb ist es wichtig, nicht nur die eigenen Programme, sondern auch deren Herkunft und Vertrauenswürdigkeit zu beachten.
 
-## Unnötige Dienste:
-
-Auch Programme bzw. Dienste die typischerweise auf dem Desktop im Hintergrund laufen bieten eine weitere Einfallstore.
-Hintergrunddienste, die nicht benötigt werden, bieten zusätzliche Einfallstore. Gerade unter Windows schleichen sich in Installtionen verschiedenste Programme ein die einen Eintrag in den Autostart legen und entsprechend jedes mal starten wenn der Rechner startet.
-Auch werden bestimmte Anwendungen erst gestartet wenn ein bestimmtes Ereignis eintritt. Gerade hier schleichen sich verschiendste Schadsoftware in den Rechner ein, bzw. sorgen dafür nicht mehr gelöscht werden zu können.
-
-https://www.heise.de/tipps-tricks/Autostart-aufraeumen-und-Windows-Start-beschleunigen-3929316.html?hg=2&hgi=1&hgf=false
-
-## Browser Addons
-
-Auch Browser Plugins können zur Gefahr werden. Da die meisten Extensions bzw. Erweiterungen für ihre berechtigte bzw. gewünschte Funktion teilweise weitreichende Berechtigungen benötigt, ist es umso schwerer Erweiterungen diese von Erweiterungen zu unterscheiden die diese Berchtigungen ausnutzen um den Nutzer zu schaden. Aber auch das ändern der Suchmaschine oder Startseite von Addons führt dazu, dass teilweise Dubiose Firmen informationen über den Suchverlauf und entsprechend auch über Interessen erhalten. Auch können Cookies entwendet werden oder neue verteilt werden, über letzteres kann dann Schadcode den Computer erreichen.
-
-https://www.kaspersky.de/blog/dangers-of-browser-extensions/29283/
-
-# Berechtigungen von Anwendungen
-
-Was im Bezug auf Browser Plugins gilt, gilt insbesondere auch für Anwendungen und Apps. In erste Linie sind (unbegründete) Berechtigungen die man typischerweise aus mobilen Betriebssystemen kennt ein Datenschutzrisiko, bzw. können dafür sorgen, dass z. B. Fotos oder Geolokalisationsdaten bei Firmen und Personen landen die diese für die Bereitstellung des Services, der App oder Anwendung garnicht benötigen. Jedoch sind Berechtigungen auch für Angreifer wichtig die diese teilweise benötigten um Schaden am System anzurichten. Auch bei Betriebssystemen für den Desktop sind können Berechtigungen dafür sorgen, dass die Privatsphäre verletzt wird zumden. So können unter Umständen Kamera und Tonaufnahmen unbemerkt erstellt werden. Es können mithilfe des freigegeben Standard, Bewegungsprofile bzw. Rückschlüsse auf den Wohnort, den Arbeitsort, bzw. auf Routinen gemacht werden.
-
-## Beispiele
-
-### Browser Addons
-
-Im Juli 2025 wurde bekannt das ingesamt 18 Erweiterungen von Chrome, die teilweise von Google verifiziert waren und über 2 Millionen Nutzer hatten alle besuchten Webseiten, inklusive Tracking IDs an einen Webserver gesendet hat und ggf. auf eine andere Webseite weitergeleitet hatte. Darunter sind unter anderem ein Farb-Picker, verschiedene Unlocker/VPNs für Discord, Tiktok und eine Sucherweiterung mit ChatGPT. Die Anwendungen bringen auf den ersten Blick ihre Funktionen mit und waren lange Zeit auch Problematisch. Erst einem automatischen Update, das unbemerkt die Funktion einführte wurden diese Webseiten weitergeleitet (Warum man dennoch Updates trotz potenzieller Gefahren automatisch installieren sollte, wird in [Software Hygiene]({{<ref "updates.md">}})). Bei diesen Angriff handelt es sich um ein sogenannten Man-in-the-Middle Angriff, der Angreifer hat also vollständigen Zugriff auf den Datenverkehr zwischen dem Nutzer und dem Browser.
-
-https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/browser-extensions/
-https://www.crowdstrike.com/en-us/blog/latam-ecrime-malware-evolution-2024/
-https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis
-**https://www.koi.ai/blog/google-and-microsoft-trusted-them-2-3-million-users-installed-them-they-were-malware**
-https://arxiv.org/html/2503.04292v1
-https://www.ndr.de/nachrichten/netzwelt/Nackt-im-Netz-Millionen-Nutzer-ausgespaeht,nacktimnetz100.html
-**https://www.kuketz-blog.de/wot-addon-wie-ein-browser-addon-seine-nutzer-ausspaeht/**
-
-### Supply Chain Attacken
-
-Im März 2018 wurden Systeme von Piriform von Angreifern übernommen, dem Hersteller der von Avast aufgekauft und das Tool "CCleaner entwickelt. Dabei hatten Angreifer sich über eine Remote-Desktop-Konto zugriff zu einen Entwickler-PC verschafft. Von dort haben sie sich weiter im den Netzwerken der Firma augekundschaftet und die Updateserver infiltriert und bei einer bestimmten Version des CCleaners ein Update so verändert, dass des den Angreifern ermöglichte Code bzw. Maleware aus der Ferne auszuführen. Es hat insgesamt 2,27 Millionen Nutzer betroffen die innerhalb eines Zeitraums 9 Tagen diese Update installiert hatten. Zwar hat sich herausgestellt, dass die Angreifer speizell Firmen wie Samsung, Sony, Epson angreifen wollten und der Rest als "Beifang" gewertet werden kann, jedoch war diese Sicherheitslücke auf diesen über zwei Millionen Geräten installiert. Ein weiteres Update, das kurz nach bekannt werden der Sicherheitslücke bereitgestellt wurde, hat das Problem behoben.
-
-https://www.wired.com/story/inside-the-unnerving-supply-chain-attack-that-corrupted-ccleaner/
+## Beipiele
 
 ### Log4J / Log4Shell
 
@@ -84,7 +46,43 @@ https://baways.com
 
 https://www.heise.de/news/Google-Play-Werbe-Plugin-BeiTaAD-sabotierte-Millionen-von-Android-Geraeten-4440324.html
 
-### Berechtigungen
+### CCleaner
+
+Im März 2018 wurden Systeme von Piriform von Angreifern übernommen, dem Hersteller der von Avast aufgekauft und das Tool "CCleaner" entwickelt. Dabei hatten Angreifer sich über eine Remote-Desktop-Konto zugriff zu einen Entwickler-PC verschafft. Von dort haben sie sich weiter im den Netzwerken der Firma augekundschaftet und die Updateserver infiltriert und bei einer bestimmten Version des CCleaners ein Update so verändert, dass des den Angreifern ermöglichte Code bzw. Maleware aus der Ferne auszuführen. Es hat insgesamt 2,27 Millionen Nutzer betroffen die innerhalb eines Zeitraums 9 Tagen diese Update installiert hatten. Zwar hat sich herausgestellt, dass die Angreifer speizell Firmen wie Samsung, Sony, Epson angreifen wollten und der Rest als "Beifang" gewertet werden kann, jedoch war diese Sicherheitslücke auf diesen über zwei Millionen Geräten installiert. Ein weiteres Update, das kurz nach bekannt werden der Sicherheitslücke bereitgestellt wurde, hat das Problem behoben.
+
+https://www.wired.com/story/inside-the-unnerving-supply-chain-attack-that-corrupted-ccleaner/
+
+## Unnötige Hintergrund-Dienste:
+
+Unter Hintergrund-Dienste versteht man Programme die aufgrund bestimmter Bedingungen gestartet werden. Beispielsweise: Starte jeden Tag zum Zeitpunkt x folgendes Programm, oder es werden Programme bei einer Anmeldung bzw. beim ersten Starten automatische mit gestartet.
+Das birgt aber auch Einfallstore bzw. schädliche Programme nutzen dies um sich daueraft, auch nach einem Neustart und dem löschen einzelner Programme weiterhin auf dem PC zu halten.
+Zu diesen gehören zwar teilweise notwendige Dienste wie z. B. Treiber, oder die Antiviren-Software, jedoch werden hier häufig über Installationen aber auch durch andere Schadsoftware oderAdware oder Schadsoftware hinterlegt, die bei einer Anmeldung mitstartet und so zudem den PC-Start im allgemeinen unnötigt verzögert.
+
+https://www.heise.de/tipps-tricks/Autostart-aufraeumen-und-Windows-Start-beschleunigen-3929316.html?hg=2&hgi=1&hgf=false
+
+## Browser-Erweiterungen
+
+Bei Browser-Erweiterungen handelt es sich um Dateien die häufig als ZIP-Datei die dafür sorgen, dass ein Browser um Funktionen erweitert wird die er nicht haus aus nur teilweise bzw. gar nicht kann.
+Aber auch Browser-Extensions können zur Gefahr werden. Da die meisten Extensions bzw. Erweiterungen für ihre berechtigte bzw. gewünschte Funktion teilweise weitreichende Berechtigungen benötigt, ist es umso schwerer Erweiterungen diese von Erweiterungen zu unterscheiden die diese Berchtigungen ausnutzen um den Nutzer zu schaden. Zudem besteht eine Erweiterung auch hier wieder aus Code der Fehler enthalten kann. So kann es dazu führen, dass das ändern der Suchmaschine oder Startseite von einem Addon führt dazu, dass teilweise dubiose Firmen Informationen über den Suchverlauf und entsprechend auch über Interessen erhalten. Auch können Cookies entwendet werden oder neue verteilt werden, über letzteres kann dann Schadcode den Computer erreichen.
+
+## Beispiele
+
+Im Juli 2025 wurde bekannt das ingesamt 18 Erweiterungen von Chrome, die teilweise von Google verifiziert waren und über 2 Millionen Nutzer hatten alle besuchten Webseiten, inklusive Tracking IDs an einen Webserver gesendet hat und ggf. auf eine andere Webseite weitergeleitet hatte. Darunter sind unter anderem ein Farb-Picker, verschiedene Unlocker/VPNs für Discord, Tiktok und eine Sucherweiterung mit ChatGPT. Die Anwendungen bringen auf den ersten Blick ihre Funktionen mit und waren lange Zeit auch Problematisch. Erst einem automatischen Update, das unbemerkt die Funktion einführte wurden diese Webseiten weitergeleitet (Warum man dennoch Updates trotz potenzieller Gefahren automatisch installieren sollte, wird in [Software Hygiene]({{<ref "updates.md">}})). Bei diesen Angriff handelt es sich um ein sogenannten Man-in-the-Middle Angriff, der Angreifer hat also vollständigen Zugriff auf den Datenverkehr zwischen dem Nutzer und dem Browser.
+https://www.kaspersky.de/blog/dangers-of-browser-extensions/29283/
+
+https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/browser-extensions/
+https://www.crowdstrike.com/en-us/blog/latam-ecrime-malware-evolution-2024/
+https://www.zscaler.com/blogs/security-research/kimsuky-deploys-translatext-target-south-korean-academia#technical-analysis
+**https://www.koi.ai/blog/google-and-microsoft-trusted-them-2-3-million-users-installed-them-they-were-malware**
+https://arxiv.org/html/2503.04292v1
+https://www.ndr.de/nachrichten/netzwelt/Nackt-im-Netz-Millionen-Nutzer-ausgespaeht,nacktimnetz100.html
+**https://www.kuketz-blog.de/wot-addon-wie-ein-browser-addon-seine-nutzer-ausspaeht/**
+
+# Berechtigungen von Anwendungen
+
+Was im Bezug auf Browser Plugins gilt, gilt insbesondere auch für Anwendungen und Apps. In erste Linie sind (unbegründete) Berechtigungen die man typischerweise aus mobilen Betriebssystemen kennt ein Datenschutzrisiko, bzw. können dafür sorgen, dass z. B. Fotos oder Geolokalisationsdaten bei Firmen und Personen landen die diese für die Bereitstellung des Services, der App oder Anwendung garnicht benötigen. Jedoch sind Berechtigungen auch für Angreifer wichtig die diese teilweise benötigten um Schaden am System anzurichten. Auch bei Betriebssystemen für den Desktop sind können Berechtigungen dafür sorgen, dass die Privatsphäre verletzt wird zumden. So können unter Umständen Kamera und Tonaufnahmen unbemerkt erstellt werden. Es können mithilfe des freigegeben Standard, Bewegungsprofile bzw. Rückschlüsse auf den Wohnort, den Arbeitsort, bzw. auf Routinen gemacht werden. Daher ist es immer ratsam nur die Berechtigungen einer App zu gewähren die Sie zumindest mutmaßlich auch für die beworbene Funktion auch braucht.
+
+## Beispiele
 
 Ein Fall bei dem erteilte Berechtigungen sehr weiterichende Folgen haben kann ist die sogennante Anatsa Banking Trojaner unter Android, der über getarnte Apps aus dem Google Play Store, wie ein QR-Code Scanner oder Smartphone Reiniger auf das Smartphone kommt. Diese Apps fragen verschiedene Berechtigungen wie den Zugriff auf SMS und die sogennante Accesibility Options bzw. Bedinenhilfen. Letzere ist sehr weitreichent und gewährt einer App Zugriff auf den gesamten Bildschrim auch von anderen Apps, zudem darf diese Apps mit anderen Apps interagieren uns Sensoren verfolgen. Mit diesen Berechtigungen können dann Zugangsdaten aus Banking App gelesen werden und Transaktikonen ausführen, zudem können Kryptowallets leergeräumt werden.
 
@@ -107,7 +105,7 @@ Doch was kann man gemacht werden um diese Probleme zu beheben bzw. die Attack Su
 
 Konkret heißt das, dass sich folgendes angeschaut werden sollte:
 
-- Unnötige Programme deinstallieren. Alles was nicht aktiv genutzt wird.
-- Das selbe gilt für Browser-Erweiterungen ggf. auch in verschiedenen Browsern. Nur vertrauenswürdige und benötigte Add-Ons behalten.
+- Unnötige Programme/Apps deinstallieren. Alles was nicht aktiv genutzt wird.
+- Das selbe gilt für Browser-Erweiterungen ggf. auch in verschiedenen Browsern. Hier sollten nur vertrauenswürdige und benötigte Add-Ons behalten.
 - Zudem sollten hin und wieder sich angeschaut werden welche Programme beim Systemstart gestartet werden
 - Und es sollte hin und wieder geprüft werden, welche Anwendungen sich aufgrund von bestimmten Bedingungen aufgerufen bzw. gestartet werden.

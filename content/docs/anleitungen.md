@@ -170,3 +170,5 @@ Unter Android können Softwareupdates über die Einstellungen installiert werden
 ## App-Updates
 
 Im Google Play Store (für andere alternative App Stores bitte die entsprechende Dokuentation beachten) können automatische Updates wie folgt installiert werden: Play Store -> Initialien/Profilbild oben rechts -> Einstellungen -> Netzwerkwerkeinstellungen -> Apps automatisch aktualisieren -> Je nach Datentarif einer der drei (von 4) Optionen wählen.
+
+# Berchtigungen
