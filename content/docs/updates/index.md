@@ -8,7 +8,7 @@ weight: 2
 ## Einleitung
 
 Der [Software Hygiene Teil]({{<ref "hygiene.md">}}) hat uns gezeigt, warum es wichtig ist, einen möglichst kleine Angriffsfläche zu bieten. Jedoch ist für die produktive Nutzung eines Laptops, PCs oder Smartphone dennoch zusätzliche Software nötig. Doch wie geht man mit dieser Software um?
-Diese Software auf dem aktuellen Stand zu halten ist eine der wichtigsten Maßnahemn um die IT-Sicherheit zu verbessern. Denn Updates schließen bekannte Schwachstellen, die sonst Angreifer ausnutzen können. Trotzdem werden Patches oft verzögert installiert - aus Unwissenheit, Misstrauen oder Bequemlichkeit. Deshalb soll es hier darum gehen, warum regelmäßige Aktualisierungen wichtig sind, wie Updates kommiziert werden und welche Update-Strategien von Herstellern genutzt werden um Updates an Anweder zu verteilen.
+Apps, Programme und Betriebssysteme auf dem aktuellen Stand zu halten ist eine der wichtigsten Maßnahemn um die IT-Sicherheit zu verbessern. Denn Updates schließen bekannte Schwachstellen, die sonst Angreifer ausnutzen können. Trotzdem werden Patches oft verzögert installiert - aus Unwissenheit, Misstrauen oder Bequemlichkeit. Deshalb soll es hier darum gehen, warum regelmäßige Aktualisierungen wichtig sind, wie Updates kommiziert werden und welche Update-Strategien von Herstellern genutzt werden um Updates an Anweder zu verteilen.
 
 ## Grundproblem
 
@@ -26,7 +26,7 @@ Aber aus welchen Gründen werden Updates nicht zeitnah eingespielt? Einige Studi
 - Unklarer Nutzen: Wie oben bereits erklärt ist vielen der Nutzen eines Updates gar nicht bewusst. Häufig wird ein Update nur wegen der neuen Funktionen installiert, nicht aber weil die Sicherheit verbessert wurde.
 - Angst vor Problemen: Zudem könnten Updates auch bösartigen Inhalt mithliefern bzw. neue Fehler beinhalten.
 - Unverständlicher Prozess: Bei vielen Anwendungen ist es nicht wirklich ersichtlich welche Änderungen ein Update mitbrigt, bzw. wieso man dieses Update jetzt installieren soll.
-- Manuelle Abläufe: Eine fehlende Automatisierung des Update-Prozesses ist teilweise herausfordernd für den Anwender und bietet Möglichkeiten für Angriffe (siehe [Quellen]({{<ref "quellen.md">}}))
+- Manuelle Abläufe: Eine fehlende Automatisierung des Update-Prozesses ist teilweise herausfordernd für den Anwender und bietet zudem Möglichkeiten für Angreifer (siehe [Quellen]({{<ref "quellen.md">}}))
 
 ![xkcd Comic](xkcd_comic.png)
 
@@ -35,12 +35,13 @@ Aber aus welchen Gründen werden Updates nicht zeitnah eingespielt? Einige Studi
 ## Konkrete Folgen (Beispiele)
 
 Doch was kann passieren wenn Updates nicht eingespielt werden und so Sicherheitslücken weiterhin vorhanden sind:
-Hierfür gibt es unzählige Beispiele wir schauen uns hier zwei besonders schwerwiegende bzw. weitreichende Fälle an, die hätten durch ein Update verhindert werden können.
+Hierfür gibt es unzählige Beispiele, wir schauen uns hier konrekt zwei Fälle an die auch private Rchner betroffen hat.
 
 ### EternalBlue und WannaCry
 
 EternalBlue ist eine Schwachstelle im SMB‑Protokoll, die 2017 bekannt wurde (CVE‑2017‑0144). Sie wurde von der Schadsoftware WannaCry massenhaft ausgenutzt und infizierte Hunderttausende Rechner weltweit, darunter Krankenhäuser und Unternehmen. Dabei wird eine Lücke in einem alten Dienst (SMBv1) unter Windows benutzt, der eigentlich dazu dient um Dateien und Drucker im Netzwerk zu teilen. Zwar hatte Microsoft schnell einen Patch veröffentlicht der das Problem behebt, hatten viele Organisationen diesen nicht installiert.
 
+Hierzu findet sich hier ein Video von Computerphile die
 https://www.youtube.com/watch?v=88jkB1V6N9w
 
 ### WinRAR
@@ -55,7 +56,7 @@ https://www.youtube.com/watch?v=rkMNOC8fhUQ
 ## Was ist ein Update?
 
 Aber gehen wir nochmal ein Schritt zurück und schauen uns an was ein Update ist:
-Eine Aktualisierung bringt Software auf den neuesten Stand, indem sie Fehler behebt, Funktionen ergänzt oder Sicherheitslücken schließt. Entwicklerinnen und Entwickler veröffentlichen in der Regel **Changelogs** oder **Release Notes**, die Änderungen in Kategorien wie Neu, Verbesserungen, Fehlerbehebungen und Sicherheit auflisten. Sicherheitsrelevante Einträge sind besonders zeitkritisch.
+Es ist eine Änderung einer Software mit den Ziel diese zu modernisieren und auf den neuesten Stand zu bringen, indem diese Änerungen Fehler behebt, Funktionen ergänzt und/oder Sicherheitslücken schließt. Entwicklerinnen und Entwickler veröffentlichen zu jedem Patch bzw. Update in der Regel **Changelogs** oder **Release Notes**, die Änderungen in Kategorien wie Neu, Verbesserungen, Fehlerbehebungen und Sicherheit auflisten. Changelogs mit sicherheitsrelevanten Einträge sind besonders zeitkritisch.
 
 ## Changelog Beispiel
 
@@ -85,10 +86,10 @@ Eine Aktualisierung bringt Software auf den neuesten Stand, indem sie Fehler beh
 
 ## Sicherheitsupdates versus Funktionsupdates
 
-- **Sicherheitsupdates** schließen Schwachstellen und sollten so schnell wie möglich installiert werden.
-- **Funktionsupdates** bringen neue Features; sie sind wichtig, aber meist weniger zeitkritisch.
+- **Sicherheitsupdates** diese schließen Schwachstellen und Sicherheitlücke und sollten so schnell wie möglich installiert werden.
+- **Funktionsupdates** bringen neue Features; Sie sind grundsätzlich auch wichtig, jedoch meist weniger zeitkritisch.
 
-**Weil Releases häufig beides kombinieren und keine Wahl lassen, gilt: Alle Updates sollten zeitnah geprüft und installiert werden.**
+**Weil Releases jedoch häufig beides kombinieren und keine Wahl lassen, gilt: Alle Updates sollten zeitnah geprüft und installiert werden.**
 
 ## Wie Updates verteilt werden
 
@@ -108,23 +109,23 @@ Nutzerinnen und Nutzer starten die Update‑Suche in den Einstellungen und best�
 
 Updates werden nur auf der Herstellerwebseite bereitgestellt; Nutzer müssen aktiv herunterladen und installieren.
 
-## Wo Updates herkommen
+## Worüber Updates herkommen
 
 ### Interne Update‑Mechanismen
 
-Einige Hersteller oder Anbieter verteilen Updates direkt über eigene Server oder Management‑Tools.
+Einige Hersteller oder Anbieter verteilen Updates direkt über eigene Server oder Management‑Tools. Updates werden je nach Implementierung bzw. Umsetzung automatisch installiert oder müssen manuell angestoßen werden. Im Betriebssystemen ist es gang und gebe, dass Updates über ein eingebauten Updater bzw. über die Einstellungen aktualisert werden können.
 
 ### App Stores
 
-Stores wie Google Play, App Store, Microsoft Store oder Mac App Store verwalten Installation und Aktualisierung vieler Apps zentral.
+Stores wie der Google Play Store, den App Store von Apple, den Microsoft Store oder der Mac App Store verwalten Installation und Aktualisierung vieler Apps zentral. Auch hier werden Updates wahlweise automatisch oder manuell installiert. Informiert wird man jedoch in der Regel immer.
 
 ### Herstellerwebseiten
 
-Treiber und Spezialsoftware werden oft direkt auf den Herstellerseiten angeboten.
+Treiber oder Software von kleinen Entwicklerteams werden häufig auch nur auf der Webseite der Hersteller zur Verfügung gestellt. Zwar bekommt man hier die Software direkt von der Quelle, jedoch können Angreifer bzw. Krimielle versuchen den Benutzer auf eine falsche Seite zu locken, die dann eine modifizierte Software enthält und schaden anrichten kann.
 
 ### Paketmanager
 
-Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard. Unter Windows gibt es seit einigen Jahren **winget**; für macOS nutzen viele **Homebrew**.
+Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard für das Verwalten von Software. Diese dort häufig den Terminal gesteuert, einige Distribution bieten jedoch auch eine Benutzeroberfläche über die Updates und Installationen komfortabel verwaltet werden können. Vergleichbares gibt es unter Windows seit einigen Jahren mit **winget**. Diese ist direkt von Microsoft und bietet den Vorteil, dass Anwendungen von Microsoft überprüft werden, jedoch ist das (wie auch unter Linux) nicht perfekt und auch über diese können theoretisch Schadprogramme verteilt werden, nichtdestotrotz bieten diese eine Aktualisierung für Software ohne diese öffnen zu müssen. Vergleichbares findet sich für macOS mit **Homebrew**.
 
 ## Übersicht Updateverteilung
 
@@ -138,6 +139,14 @@ Unter Linux sind Paketmanager (apt, yum, dnf, zypper) Standard. Unter Windows gi
 
 ## Empfehlungen
 
-- **Automatische Updates aktivieren** für Betriebssystem und Browser.
-- **App‑Store‑Updates erlauben** für alle Apps aus App-Stores.
-- **Bei manuellen Downloads** nur offizielle Herstellerseiten nutzen vgl [Sichere Quellen]({{<ref "quellen.md">}}).
+Was sollte man nun konkret umsetzen um Software möglichst schnell zu aktualisieren.
+
+- Überall wo die Option angeboten wird **automatische Updates aktiveren**. Das verhindert, dass man Updates vergisst, jetzt gerade keine Zeit dafür hat oder Angst vor einen Update hat.
+  - das gilt inbesondere für das **Betriebsystem**
+  - und den **Browser** (lässt sich heutzutage selten _ausschalten_)
+- Zudem sollten auch Updates für Software beachtet werden die nicht in der "ersten Reihe" steht:
+  - Browser-Addons aktualisieren,
+  - Erweiterungen und Mods in Spielen,
+  - Router-Software,
+  - ...
+- **Bei manuellen Downloads** sollte genau geprüft werden ob es sich um die offizielle Herstellerseiten handelt **App‑Store‑Updates erlauben** für alle Apps aus App-Stores.vgl [Sichere Quellen]({{<ref "quellen.md">}}).
