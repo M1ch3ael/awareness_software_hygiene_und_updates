@@ -17,7 +17,11 @@ Von hieraus können dann über Apps -> Installierte Apps alle installierten Apps
 Alternativ gibt es die Möglichkeit über folgenden Link zu diesen Einstellungen zu gelangen:
 "ms-settings:appsfeatures" die [hierüber](ms-settings:appsfeatures) aufgerufen werden kann.
 
+Dort ist, sofern diese vom Entwickler angegeben bzw. hinterlegt wurde, die aktuelle Versionsnummer zu sehen, darauf folgt der Entwickler bzw. die Firma die die Software entwickelt und danach folgt das Installationsdatum bzw. das Datum des letzten Updates.
+
 Über die drei Punkte an der rechten Seite des jeweiligen Eintrags können Anwendungen verschoben und deinstalliert werden.
+
+Am oberen Rand der Seite gibt es die Möglichkeit die Apps nach verschiedenen Kriterien zu sortieren. Spannend ist hier sicherlich das Datum der Installation oder bei Speicherknappheit die Größe der Anwendungen.
 
 ### MacOS
 
@@ -41,7 +45,8 @@ Ist das nicht vorhanden kann eine App entfernt werden, indem Sie in den Papierko
 
 ### Android
 
-**Anmerkung**: Da Android je Gerätehersteller andere Einstellungen bereitstellt fokussiert sich diese Anleitung an einem Pixel Gerät. Die Vorgehenweise sollte dennoch ähnlich sein.
+**Anmerkung**: Da unter Android je Gerätehersteller Einstellungen ggf. an anderen Stellen bzw. Apps ausgegliedert ist, fokussiert sich diese Anleitung an einem Pixel Gerät. Die Vorgehenweise sollte dennoch ähnlich sein. Solltes es Probleme geben, sollte eine Online-Suche weiterhelfen.
+
 Es gibt unter Android viele verschiedene Möglichkeiten eine Übersicht über alle Apps zu erhalten. Beispielsweise lassen sich die meisten über den App-Drawer bzw. die Anzeige die beim nach oben wischen dargestellt wird anzeigen. Von dort können Anwendungen dann über das wischen nach oben zu "Deinstallieren" entfernt werden.
 
 Zudem besteht die Möglichkeit Apps über die Einstellungen zu deinstallieren. Die Übersicht ist wie folgt zu finden -> Einstellungen -> Apps -> Alle Apps zu finden. Beim Klick auf eine App lässt sich diese auch hier wieder über "Deinstallieren" löschen.
@@ -50,11 +55,14 @@ Es gibt außerdem noch die Option sich Apps über den Google Play Store anzuzeig
 
 ### iOS
 
-Unter iOS können Anwendungen wie folgt angezeigt und deinsntaliert werden. Einstellungen -> Allgemein -> iPhone Speicher. Durch das swipen nach Rechts kann mit App löschen eine Anwendung vom iPhone bzw. iPad gelöscht werden.
+Unter iOS können Anwendungen wie folgt angezeigt und deinsntaliert werden. Einstellungen -> Allgemein -> iPhone Speicher. Durch das swipen nach Rechts kann mit "App löschen" eine Anwendung vom iPhone bzw. iPad gelöscht werden. Hierbei gibt es je nach iOS Version auch die möglichkeit auf der rechten Seite oberhalb der Liste nach "zuletzt genutzt" zu sortieren.
+Apple bietet hier je nach iOS Version auch die Möglichkeit Apps auzulagern, hierdurch wird die App selbst deinstalliert, persönlichen Daten und Dateien bleiben aber auf dem Handy enthalten, dadurch kann die App relativ leicht wieder genutzt werden ohne diese wieder großartig neu einrichten zu müssen
+
+Zudem besteht auch die Möglichkeit Apps über den Homescreen zu löschen. Hierfür muss auf die App geklickt und gehalten werden. Danach erscheint ein Kontextmenü -> App entfernen -> App löschen -> mit "Löschen" bestätigen.
 
 ## Autostart
 
-Innerhalb vom Autostart können sich beispielsweise Schad- oder Adware persistieren, bzw. hierdurch auch nach dem ausschlaten und ggf. löschen der infizierten Datei wieder erneut ausbreiten. Daher ist es sinnvoll auch hier sich zumindest mal anzuschauen was bzw. welche Programme beim Start des Betriebsystems alle auch gestartet werden.
+Innerhalb vom Autostart können sich beispielsweise Schad- oder Adware persistieren, bzw. hierdurch auch nach dem ausschlaten und ggf. löschen der infizierten Datei wieder erneut ausbreiten. Daher ist es sinnvoll auch hier sich zumindest hin und wieder anzuschauen was bzw. welche Programme beim Start des Betriebsystems auch gestartet werden.
 
 ### Windows
 
