@@ -1,6 +1,8 @@
 ---
 title: "Anleitungen"
 weight: 5
+bookHidden: true
+
 ---
 
 **Wir haben zu jeder Aktion die jeweilige Anleitung des Herstellers verlinkt, sofern verfügbar. Da uns leider nicht alle Produkte bzw. Betriebssysteme zur Verfügung standen, kann es trotz möglichst sorgfältiger Arbeit dazu kommen, dass die Anleitungen nicht vollständig übereinstimmen. Ggf. bitte die Infos hinter den Links bzw. der Herstellerseite des Geräts/der Software überprüfen.**
