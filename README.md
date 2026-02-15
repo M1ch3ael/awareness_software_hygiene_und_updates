@@ -1,28 +1,38 @@
 # Software-Hygiene & Updates
 
-## Gruppe
+**Ein Projekt im Rahmen des Kurses „Aktuelle Themen der IT-Sicherheit” (WS 2025/26)**
+_Modul 3: Geräte & Daten schützen | Einheit 3.3 | Überthema: Security Champions @ HHN_
+
+Hochschule Heilbronn, Angewandte Informatik
+
+## Projektgruppe
 
 - Chinonso Joseph Agbo (215903)
 - Michael Wenninger (215458)
 
+## Thematischer Fokus
+
+Auf dieser Webseite behandeln wir die Grundlagen zum Umgang mit Software. Die Inhalte sind über die Startseite erreichbar und gliedern sich in drei Schwerpunkte:
+
+1. Software-Hygiene
+2. Software-Updates
+3. Sichere Quellen
+
+Zudem befinden sich auf der Webseite Anleitungen und Erklärungen zum Lösen der Aufgaben auf unterschiedlichen Betriebssystemen.
+
+**Wichtig zur Aufgaben-Datei**: Die zu bearbeitende [Excel-Datei, Aufgaben.xlsx](https://github.com/M1ch3ael/awareness_software_hygiene_und_updates/blob/main/Aufgaben.xlsx) ist _nicht_ auf der Webseite verlinkt und muss separat an Teilnehmende verteilt werden.
+
 ## Technischer Hintergrund
 
-Diese Website wird über das [GitHub-Repository](https://m1ch3ael.github.io/awareness_software_hygiene_und_updates/) gehostet, kann aber auch selbst gehostet werden. Wir haben diese Website mit dem Webframework [Hugo](https://gohugo.io/getting-started/quick-start/) erstellt. Der Server kann lokal über „hugo server” gestartet werden.
+- **Gehostete Version**: [Zur gehosteten Webseite (GitHub)](https://m1ch3ael.github.io/awareness_software_hygiene_und_updates/)
+- **Framework**: [Hugo](https://gohugo.io/getting-started/quick-start/)
+  - **Theme**: [Hugo-Book](https://themes.gohugo.io/themes/hugo-book/)
+- **Inhalte**: Die Markdown-Dateien zu den Webseiten befinden sich im Ordner `content/docs/`. Die Startseite liegt unter `content/_index.md`. Enthält eine Seite Bilder, wurde für diese Seite ein Ordner erstellt, in dem die Bilder abgelegt wurden.
 
-Die Excel-Datei mit den Aufgaben steht hier über den GitHub-Link zur Verfügung [Github - Aufgaben.xlsx](https://github.com/M1ch3ael/awareness_software_hygiene_und_updates/blob/main/Aufgaben.xlsx).
+### Lokale Ausführung
 
-Das Repository befindet sich auf GitHub unter [Github | M1ch3ael](https://github.com/M1ch3ael/awareness_software_hygiene_und_updates).
+Um das Projekt lokal auszuführen, wird Hugo benötigt. Den lokalen Webserver kann mit folgendem Befehl im Hauptverzeichnis gestartet werden:
 
-Die einzelnen Dateien befinden sich in den Ordnern `content\docs\`. Befinden sich Bilder in den einzelnen Seiten wurden für diese Ordner erstellt.
-
-Als Theme haben wir [Book / Hugo-Book](https://themes.gohugo.io/themes/hugo-book/) verwendet.
-
-## Thematischer Hintergrund
-
-Es handelt sich um Einheit 3.3 „Software-Hygiene & Updates” aus Modul 3 „Geräte & Daten schützen” des Kurses „Aktuelle Themen der IT-Sicherheit” mit dem Überthema „Security Champions @ HHN" "Gemeinsam für mehr Cybersicherheit” aus dem Wintersemester 2025/26. Wir haben uns hier näher mit Software-Hygiene, Software-Updates und sicheren Quellen befasst.
-
-Diese drei Schwerpunkte wurden in einzelne Seiten aufgeteilt und sind über die Startseite zu finden. Auch die Beschreibungen zu den Aufgaben können über die Startseite aufgerufen werden.
-
-Die Excel-Datei für die Aufgaben selbst wird nicht auf den Seiten verlinkt (nur hier in der README), sie muss anderweitig verteilt werden.
-
-Alles Weitere zu den Aufgaben wird auf der Webseite selbst erklärt. Auch Anleitungen für die einzelnen Betriebssysteme wurden erstellt und sind über die Webseite (Aufgaben) erreichbar.
+```bash
+hugo server
+```
