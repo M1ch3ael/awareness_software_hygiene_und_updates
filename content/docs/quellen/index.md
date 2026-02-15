@@ -26,6 +26,8 @@ Solche Plattformen halten definierte Sicherheitsstandards ein und prüfen bereit
    (z. B. `videolan.org`, `microsoft.com`)  
    *Vorteil:* Die Software stammt direkt vom Entwickler und ist daher am zuverlässigsten.
 
+Das sorgt in der Regel dafür, dass es sich tatsächlich um die Software des Entwicklers handelt und sie nicht manipuliert wurde. Das bedeutet jedoch nicht, dass der Entwickler keinen Schaden anrichten möchte. App-Stores haben hier sicherlich eine Gatekeeper-Funktion und versuchen, solche Dinge zu verhindern. Auf Herstellerwebseiten kann jedoch grundsätzlich alles angeboten werden, was entwickelt werden kann.
+
 ---
 
 ## Beispiel: Download von AnyDesk
@@ -36,7 +38,7 @@ Ein Nutzer sucht im Internet nach „AnyDesk“.
 *Abbildung: Malicious Google Ads – manipulierte Werbeanzeige oberhalb der echten Suchergebnisse*
 
 Die erste Anzeige ist ein durch Google Ads ausgespielter Malvertising‑Link.  
-Beim Anklicken wird nicht die echte AnyDesk‑Software heruntergeladen, sondern eine Schadsoftware installiert.
+Beim Anklicken wird nicht die echte AnyDesk‑Software, sondern wird eine Schadsoftware  heruntergeladen.
 
 ---
 
@@ -45,7 +47,7 @@ Beim Anklicken wird nicht die echte AnyDesk‑Software heruntergeladen, sondern 
 Bei der Suche nach „VLC Player“ erscheinen in Suchmaschinen häufig mehrere Ergebnisse:
 
 1. https://www.videolan.org  
-2. https://en.vlc.de/
+2. https://en[.]vlc[.]de/
 
 Für Nutzer stellt sich die Frage, welche Seite die offizielle und sichere Quelle ist.
 
