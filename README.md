@@ -13,9 +13,12 @@ Die Excel-Datei mit den Aufgaben steht hier über den GitHub-Link zur Verfügung
 
 Das Repository befindet sich auf GitHub unter [Github | M1ch3ael](https://github.com/M1ch3ael/awareness_software_hygiene_und_updates).
 
+Die einzelnen Dateien befinden sich in den Ordnern `content\docs\`. Befinden sich Bilder in den einzelnen Seiten wurden für diese Ordner erstellt.
+
+Als Theme haben wir [Book / Hugo-Book](https://themes.gohugo.io/themes/hugo-book/) verwendet.
+
 ## Thematischer Hintergrund
 
 Es handelt sich um Einheit 3.3 „Software-Hygiene & Updates” aus Modul 3 „Geräte & Daten schützen” des Kurses „Aktuelle Themen der IT-Sicherheit” mit dem Überthema „Security Champions @ HHN" "Gemeinsam für mehr Cybersicherheit” aus dem Wintersemester 2025/26. Wir haben uns hier näher mit Software-Hygiene, Software-Updates und sicheren Quellen befasst.
 
 Diese drei Module wurden in einzelne Seiten aufgeteilt und sind über die Startseite zu finden. Auch die Beschreibungen zu den Aufgaben können über die Startseite aufgerufen werden. Alles weitere wird über die Webseite selbst erklärt.
-
