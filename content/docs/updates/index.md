@@ -1,7 +1,6 @@
 ---
 title: "Software Updates"
 weight: 2
-
 ---
 
 # Software-Updates
@@ -118,7 +117,7 @@ Nutzer:innen starten die Update-Suche in den Einstellungen und bestätigen Downl
 
 ### Manuelle Offline‑Updates
 
-Updates werden nur auf der Herstellerwebseite bereitgestellt; Nutzer:innen müssen wissen, dass es ein Update gibt, hierfür muss aber auch bekannt sein, um auf welcher Seite das überprüft werden kann und zudem muss man peridoisch daran denken nach diesen zu suchen.
+Updates werden nur auf der Herstellerwebseite bereitgestellt; Nutzer:innen müssen wissen, dass es ein Update gibt, hierfür muss aber auch bekannt sein, um auf welcher Seite das überprüft werden kann und zudem muss man periodisch daran denken nach diesen zu suchen.
 
 ![7-zip](7-Zip_Info.png)
 
@@ -155,8 +154,8 @@ Unter Linux sind Paketmanager wie apt, yum, dnf oder zypper Standard, um Softwar
 Was sollte man nun konkret umsetzen, um die Software möglichst schnell zu aktualisieren?
 
 - [ ] **Vollautomatik priorisieren**: Überall dort wo es möglich ist automatische Updates aktivieren. Gilt insbesondere für das Betriebssystem und Browser (die Update-Funktion lässt sich dort bei den meisten heutzutage kaum noch deaktivieren).
-- [ ] **App-Stores nutzen**: In Stores wie den Apple App Store, den Google Play Store oder der Microsoft Store automatische Aktualisierungen aktivieren und verwenden. Hierdurch werden eine Vielzahl von Programmen und aufwand gepflegt.
-- [ ] **Blick in die "zweite Reihe"**: Es sollte peridoisch geprüft geziehlt Geräte und Software geprüft werden, die sich nicht von selbst melden:
+- [ ] **App-Stores nutzen**: In Stores wie den Apple App Store, den Google Play Store oder der Microsoft Store automatische Aktualisierungen aktivieren und verwenden. Hierdurch wird eine Vielzahl von Programmen zentral und ohne großen Aufwand auf dem neuesten Stand gehalten.
+- [ ] **Blick in die "zweite Reihe"**: Es sollten peridoisch und geziehlt Geräte und Software geprüft werden, die sich nicht von selbst melden:
   - Browser-Add-ons
   - Router-Firmware & Smart-Home-Geräte(IoT / Lampen, Saugroboter, ...).
   - Spezialprogramme (z. B. Grafiktreiber, Packprogramme wie WinRAR/7-Zip oder Bibliotheken, wie die Java Runtime Environment)

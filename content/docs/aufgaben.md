@@ -5,41 +5,59 @@ weight: 4
 
 # Aufgaben
 
-Wir haben eine Excel-Datei für die Aufgaben erstellt. Die Aufgaben müssen darin bearbeitet werden. Die Datei wird zum Präsenstermin bereitgestellt.
+Für die Bearbeitung wurde eine Excel-Datei erstellt, in der alle Ergebnisse eingetragen werden müssen. Die Datei wird zum Präsenstermin bereitgestellt.
 
-Hierfür haben wir Anleitungen zu den gängigsten Betriebssystemen bereitgestellt: **[Anleitungen]({{<ref "anleitungen.md">}})**
-
-## 1. Hygiene
-
-Um aufräumen zu können, ist es jedoch wichtig zu wissen, was überhaupt alles installiert bzw. vorhanden ist. Daher bietet es sich im Hinblick auf die Hygiene an, zunächst eine Inventarliste der installierten Programme zu erstellen.
-
-1. Zu Beginn gilt es herauszufinden, welche Version des Betriebssystems installiert ist und ob hierfür Updates vorhanden sind.
-
-2. Im nächsten Schritt werden die installierten Anwendungen und Programme überprüft. Da es wenig Sinn ergibt, über einen längeren Zeitraum alle Anwendungen herauszukopieren und sich teilweise hunderte Anwendungen aufzuschreiben, gehen wir wie folgt vor:
-
-- Zunächst verschaffen wir uns einen Überblick und **schauen** uns alle installierten Programme an.
-
-Aus diesen Anwendungen wählen wir nun mindestens fünf aus, die schon sehr lange auf dem PC sind und keine Updates erfahren haben. Hierzu sollen die geforderten Informationen eingetragen werden. Zudem muss geprüft werden, ob Updates vorhanden sind. Sofern verfügbar, muss die entsprechende Version eingetragen werden. Die Updates können gleich oder im Anschluss installiert werden. Achtung: **Je nach Software kann dies lange dauern und den Laptop verlangsamen**.
-
-Ein weiterer Teil der Anwendungen, die wir genauer betrachten wollen, sind jene, die **schon sehr lange nicht mehr benutzt wurden**. Hierbei geht es darum, herauszufinden, welche dieser Anwendungen nicht mehr benötigt werden und deinstalliert werden können. Auch hier sollten nach Möglichkeit fünf Anwendungen gefunden werden, zu denen Daten erfasst werden können. Wenn diese deinstalliert werden, wird die Excel-Datei entsprechend angepasst, sodass die Version und ggf. verfügbare Updates nicht eingetragen werden müssen. Sollten keine fünf Anwendungen gefunden werden, sind die fehlenden mit den älteren Programmen aufzufüllen.
-
-Das Ziel besteht also darin, insgesamt die Daten von **zehn** Anwendungen (idealerweise fünf und fünf) in die blaue Tabelle einzutragen.
-
-- Bei Bedarf ist in der unteren grauen Tabelle (darunter) noch weiterer Platz für eine **freiwillige** weitere Protokollierung.
-
-3.  Weiter geht es zu den Browser-Erweiterungen. Hier geht es darum, die installierten Erweiterungen in den verschiedenen Browsern zu überprüfen und diese bei Bedarf zu aktualisieren oder zu deinstallieren. Die benötigten Daten sollten innerhalb des Browsers einsehbar sein. Es sollten mindestens fünf Erweiterungen erfasst werden, sofern installiert. Es ist auch möglich bzw. erwünscht, diese Übersicht über mehrere Browser hinweg zu erstellen, sofern mehr als ein Browser installiert ist.
-
-4.  In der Tabelle „Autostart/Hintergrund-Programme” sollten die Anwendungen überprüft werden, die beim Login starten, sowie die Anwendungen, die die Berechtigung haben, im Hintergrund zu laufen.
-
-5.  Zuletzt sollen in der Tabelle „Sichere Quellen” für die genannten Anwendungen die tatsächliche Quelle für das Softwarepaket bzw. die originale Download-Quelle als URL eingefügt werden. Hier sollten **keine** Links zu Microsoft Store, F-Droid, Google Play, App-Store usw. eingefügt werden, **sondern ein Link zum Hersteller/Entwickler mit dem Download**.
-    Beispiel: **Firefox**
-
-| Programm | Original-Webseite des Entwicklers/Herstellers |
-| -------- | --------------------------------------------- |
-| Firefox  | https://www.firefox.com/de/                   |
-
-und **nicht** ~~https://apps.microsoft.com/detail/9nzvdkpmr9rd?hl=en-US&gl=DE~~
+Damit bekannt ist, wo die benötigten Informationen auf den Geräten zu finden sind, stehen Anleitungen für die gängigsten Betriebssysteme zur Verfügung: **[Zu den Anleitungen]({{<ref "anleitungen.md">}})**
 
 ---
 
-Für Aufgabe 1–3 gibt es ein weiteres **Excel-Blatt für mobile Betriebssysteme** in der Excel-Datei. Dieses ist jedoch **freiwillig** und muss nicht bearbeitet werden.
+## Teil 1: System-Inventur (Hygiene & Updates)
+
+Um das System aufräumen zu können, muss zunächst bekannt sein, was überhaupt installiert ist. Daher wird im ersten Schritt eine Inventarliste erstellt.
+
+### 1. Betriebssystem prüfen
+
+Zunächst ist herauszufinden, welche Version des Betriebssystems aktuell installiert ist und ob dafür Updates zur Verfügung stehen. Die Ergebnisse sind in die entsprechende Tabelle der Excel-Datei einzutragen.
+
+### 2. Installierte Programme überprüfen
+
+Da es zu aufwendig ist, alle (teilweise hunderte) installierten Programme zu dokumentieren, empfiehlt sich zunächst ein grober Überblick über die Liste der Anwendungen. Das weitere Vorgehen sieht wie folgt aus:
+
+- **5 alte Programme (Fokus: Updates):** Fünf Anwendungen auswählen, die schon sehr lange auf dem PC sind. Die geforderten Informationen in die Tabelle eintragen. Es ist zu prüfen, ob Updates zur Verfügung stehen. Die neue Version notieren und das Update installieren (Achtung: _Je nach Software kann dies länger dauern und das Gerät vorübergehend verlangsamen_).
+- **5 ungenutzte Programme (Fokus: Hygiene):** Fünf weitere Anwendungen auswählen, die schon sehr lange nicht mehr benutzt wurden und die deinstalliert werden können. Diese ebenfalls in die Tabelle eintragen und anschließend deinstallieren. (Für diese Programme müssen keine neuen Updates recherchiert werden).
+  - _Hinweis: Sollten sich keine fünf ungenutzten Programme finden lassen, sind die fehlenden Plätze mit weiteren "alten Programmen" aus dem ersten Schritt aufzufüllen._
+
+**Ziel:** Am Ende sollen die Daten von insgesamt **zehn Anwendungen** in der blauen Tabelle erfasst sein. In der grauen Tabelle darunter ist zudem Platz für eine _freiwillige_ weitere Protokollierung.
+
+### 3. Browser-Erweiterungen
+
+Die installierten Erweiterungen (Add-ons) in den Browsern überprüfen.
+
+- Mindestens **fünf Erweiterungen** in der Tabelle erfassen (sofern so viele installiert sind).
+- Diese bei Bedarf aktualisieren oder deinstallieren.
+- _Tipp:_ Wenn mehrere Browser genutzt werden, können gerne alle in die Übersicht einbezogen werden.
+
+### 4. Autostart- und Hintergrund-Programme
+
+In der Excel-Datei zur Tabelle „Autostart/Hintergrund-Programme” wechseln. Auf dem Gerät überprüfen, welche Anwendungen direkt bei der Anmeldung starten und welche die Berechtigung haben, dauerhaft im Hintergrund zu laufen. Die Ergebnisse eintragen.
+
+---
+
+## Teil 2: Sichere Quellen recherchieren
+
+In der Excel-Datei zur Tabelle „Sichere Quellen” wechseln. Für die dort aufgelisteten Anwendungen ist die **tatsächliche Original-Quelle** (die offizielle Website des Herstellers/Entwicklers) zu recherchieren und die URL einzutragen.
+
+> **Wichtig:** Hierbei sind **keine** Links zu App-Stores (wie Microsoft Store, Google Play, Apple App Store oder F-Droid) zu verwenden, sondern ausschließlich direkte Links zur Webseite des Entwicklers, auf der der Download angeboten wird!
+
+**Beispiel:**
+
+| Programm | Original-Webseite des Entwicklers/Herstellers |
+| :------- | :-------------------------------------------- |
+| Firefox  | `https://www.mozilla.org/de/firefox/new/`     |
+
+_(Falsch wäre z. B.: ~~`https://apps.microsoft.com/detail/9nzvdkpmr9rd`~~)_
+
+---
+
+**Freiwillige Zusatzaufgabe:**
+Für die Aufgaben 1 bis 3 gibt es in der Excel-Datei ein weiteres Blatt für **mobile Betriebssysteme** (Smartphones/Tablets). Die Bearbeitung dieses Arbeitsblattes ist freiwillig, wird aber für die eigene digitale Hygiene empfohlen.
