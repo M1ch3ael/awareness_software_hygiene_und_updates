@@ -13,11 +13,10 @@ Apps, Programme und Betriebssysteme auf dem aktuellen Stand zu halten, ist eine 
 ## Grundproblem
 
 Sehr viele Menschen unterschätzen den Nutzen von Software-Updates. Sicherheitsexpert:innen sehen das zeitnahe Einspielen von Sicherheitsupdates als eine der effektivsten Schutzmaßnahmen an – sogar noch vor Passwortmanagern und der Zwei-Faktor-Authentifizierung. So kommt es eben dazu, dass teilweise erst 50 % der Anwender das Update innerhalb einer Woche nach der Veröffentlichung durchführen, obwohl nach dem Veröffentlichen des Updates häufig die Angriffsraten auf die in dem Update verbesserte Schwachstelle stark ansteigen.
+
 ![Prozentualer Unterschied](Difference_Experts_Non-IT.png)
 
 > Aus [““...No one Can Hack My Mind”: Comparing Expert and Non-Expert Security Practices, Ion et al.](https://www.usenix.org/system/files/conference/soups2015/soups15-paper-ion.pdf)
-
-> https://www.verbraucherzentrale.nrw/wissen/digitale-welt/apps-und-software/softwareupdates-deshalb-sind-sie-wichtig-81285
 
 ## Gründe für Verzögerungen
 
@@ -51,7 +50,7 @@ RARLAB, Public domain, via Wikimedia Commons
 
 WinRAR ist ein Packprogramm, das auf vielen Windows-Rechnern installiert ist. Daher ist es immer wieder das Ziel von Angriffen. Zuletzt bzw. immer noch wird eine Schwachstelle ausgenutzt, die es Angreifern ermöglicht, über speziell präparierte Dateien (z. B. PDFs) in den Ordner für die Startprogramme zu schreiben und dort eine Malware zu platzieren, die beim nächsten Login automatisch gestartet wird. Diese Sicherheitslücke mit dem Namen CVE-2025-8088 besteht bereits seit Mitte 2025 und wurde im selben Monat gepatcht. Dennoch wird sie Ende Januar von verschiedenen Akteuren weiterhin ausgenutzt[^2].
 
-https://www.youtube.com/watch?v=rkMNOC8fhUQ
+[Youtube John Hammond (insg. ziemlich technisch, Ausführung ab Minute 22)](https://youtu.be/rkMNOC8fhUQ?si=D1uSsLZ2FKfyo-Iw&t=1320)
 
 # Updates besser verstehen
 
