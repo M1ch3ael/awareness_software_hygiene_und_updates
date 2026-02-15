@@ -39,3 +39,9 @@ Das Ziel besteht also darin, für die blaue Tabelle insgesamt die Daten von **ze
 | Firefox  | https://www.firefox.com/de/                   |
 
 und **nicht** ~~https://apps.microsoft.com/detail/9nzvdkpmr9rd?hl=en-US&gl=DE~~
+
+
+----
+
+
+Es gibt für Aufgabe 1 - 3 ein weiteres Excel-Blatt in der Datei. Dieses ist jedoch freiwillig und muss nicht bearbeitet werden.
