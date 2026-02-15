@@ -1,33 +1,4 @@
-# TODO
+# Ablauf
 
-1. Beispiele in allen Bereichen hinzufügen,
-   Konkret: EternalBlue WinRAR, VLC, ggf. mehr Bilder hierzu.
-2. Anleitungen zum herausfinden der Version, Updaten von Anwendungen usw.
-3. Alles auch für Browser Addons erweitern.
-4. Autostart mit Aufnehmen (Hyigene)
-5. Excel-Tabelle bearbeiten, sodass diese "interaktiv" wird.
-6. Ggf. Skript für das auslesen der installierten Software ...
-7. Aufgaben Seite überarbeiten.
-   Anleitung für die Excel erstellen -> Anzahl der Programme bestimmen
-8. Notiz bzw. Anmerkung. Der Laptop muss mitgebracht werden.
-9.
-
----
-
-Michael
-Nach welchen Kritieren kann man Programme deinstallieren?
-Software Hyignene: App berechtigungen wie man diese verwaltet
-
----
-
-Chinonso
-Beim VLC die Fake und die Originale vergleichen und ggf. erkennungsmerkmale heraustellen.
-Sichere Quelle für Addons hinzufügen.
-- https://addons.mozilla.org/de/firefox/
-- https://chromewebstore.google.com/
-- Microsoft Strore
-- App Mac Store
-- Google Play Store
-- Apple App Store
-Überall Beispiele
+Diese Website wird über dieses [GitHub Repository](https://m1ch3ael.github.io/awareness_software_hygiene_und_updates/) gehostet. Es dient zur Präsentation Software Hygiene und Updates 
 

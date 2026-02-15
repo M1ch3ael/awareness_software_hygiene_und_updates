@@ -12,26 +12,26 @@ type: docs
 # bookIcon: ''
 ---
 
-# Herzilch Willkommen
+# Herzilch Willkommen!
 
-Wir haben für dieses Modul eine Webseite im Wiki-Style aufgesetzt. Diese führt durch die verschieden Bereiche der Softwarenutzung. Sie zeigt auf, wo es hier Fallstricke liegen, was passieren kann, und was man konkret verbessern kann um diese zu verhindern.
+Für dieses Modul haben wir eine Webseite aufgesetzt. Sie führt durch die verschiedenen Bereiche der Softwarenutzung. Sie zeigt auf, wo Fallstricke lauern, was passieren kann und wie sich diese verhindern lassen.
 
-Das Thema ist in die drei weiter unten gezeigten Bereiche aufgteilt. Die einzelen Themen sind abgeschlossen. Es ist jedoch zu empfehlen diese nacheinander in der gegebenen Reihenfolge durchzuarbeiten.
+Das Thema ist in die drei weiter unten gezeigten Bereiche aufgeteilt. Die einzelnen Themen sind abgeschlossen. Es wird jedoch empfohlen, diese nacheinander in der gegebenen Reihenfolge durchzuarbeiten.
 
-Zudem gibt es am Ende noch eine zu bearbeitende Aufgabe.
+Zudem gibt es am Ende eine Aufgabe zur Bearbeitung.
 
 # [Software Hygiene]({{<ref "hygiene.md">}})
 
-Warum ist es nicht sinnvoll (aus Sicht der IT-Sicherheit) viel Software auf einem Endgerät zu haben. Was kann das für Auswirkungen haben und was kann man dagegen tun?
+Warum kann es gefährlich sein, viel Software auf einem Endgerät zu haben? Welche Auswirkungen hat das und was kann man dagegen tun?
 
-# [Software Updates]({{<ref "updates">}})
+# [Software Updates]({{<ref "updates.md">}})
 
-Hier erfahren Sie wieso Updates wichtig sind, welche MMechanismen dahinter stecken und wie eine Updatestrategie aussehen kann.
+Wie wichtig sind Software-Updates, welche Mechanismen stecken dahinter und wie kann eine Updatestrategie aussehen?
 
-# [Sichere Quellen]({{<ref "quellen">}})
+# [Sichere Quellen]({{<ref "quellen.md">}})
 
-Woher bekommt man die Software die man benötigt. Woher weiß ich was sichere Quellen sind und was nicht und was gibt es sonst zu beachten.
+Woher bekommt man die benötigte Software? Wie erkennt man sichere Quellen und was sollte man dabei beachten?
 
-# [Aufgaben]({{<ref "aufgaben">}})
+# [Aufgaben]({{<ref "aufgaben.md">}})
 
-Hier finden sich die Aufgaben für dieses Teilmodul diese müssen für den Leistungsnachweis bearbeitet werden.
+Hier finden sich die Aufgaben für dieses Teilmodul. Diese müssen für den Leistungsnachweis bearbeitet werden.
