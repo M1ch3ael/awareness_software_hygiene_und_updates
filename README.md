@@ -21,4 +21,8 @@ Als Theme haben wir [Book / Hugo-Book](https://themes.gohugo.io/themes/hugo-book
 
 Es handelt sich um Einheit 3.3 „Software-Hygiene & Updates” aus Modul 3 „Geräte & Daten schützen” des Kurses „Aktuelle Themen der IT-Sicherheit” mit dem Überthema „Security Champions @ HHN" "Gemeinsam für mehr Cybersicherheit” aus dem Wintersemester 2025/26. Wir haben uns hier näher mit Software-Hygiene, Software-Updates und sicheren Quellen befasst.
 
-Diese drei Module wurden in einzelne Seiten aufgeteilt und sind über die Startseite zu finden. Auch die Beschreibungen zu den Aufgaben können über die Startseite aufgerufen werden. Alles weitere wird über die Webseite selbst erklärt.
+Diese drei Schwerpunkte wurden in einzelne Seiten aufgeteilt und sind über die Startseite zu finden. Auch die Beschreibungen zu den Aufgaben können über die Startseite aufgerufen werden.
+
+Die Excel-Datei für die Aufgaben selbst wird nicht auf den Seiten verlinkt (nur hier in der README), sie muss anderweitig verteilt werden.
+
+Alles Weitere zu den Aufgaben wird auf der Webseite selbst erklärt. Auch Anleitungen für die einzelnen Betriebssysteme wurden erstellt und sind über die Webseite (Aufgaben) erreichbar.
