@@ -1,6 +1,7 @@
 ---
 title: "Software Updates"
 weight: 2
+
 ---
 
 # Software-Updates
@@ -85,6 +86,8 @@ Ein Update ist eine Änderung einer Software, die das Ziel verfolgt, diese zu mo
 - Verbesserte Prüfungen bei der Anmeldung.
 
 (Dieses Beispiel ist fiktiv.)
+
+Weitere Beispiele von echten Softwareprojekten sind [hier]({{<ref "beispiele.md">}}) zu sehen.
 
 ## Sicherheitsupdates versus Funktionsupdates
 

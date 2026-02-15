@@ -1,3 +1,9 @@
+---
+title: "Beispiele"
+weight: 6
+bookHidden: true
+---
+
 Egal ob die Hinweise für Entwickler oder Anwender gedacht sind. Beide sind leider bei den meisten Entwicklern in Englisch verfasst.
 
 ## Firefox

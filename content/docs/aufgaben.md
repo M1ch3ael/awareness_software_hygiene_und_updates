@@ -5,9 +5,9 @@ weight: 4
 
 # Aufgaben
 
-Für die Aufgaben haben wir eine Excel-Datei erstellt. Die Aufgaben müssen darin bearbeitet werden. Die Excel-Datei ist hier zu finden:
+Wir haben eine Excel-Datei für die Aufgaben erstellt. Die Aufgaben müssen darin bearbeitet werden. Die Datei wird zum Presenstermin bereitgestellt.
 
-Wir haben hierzu Anleitungen zu den gängigsten Betriebssystemen bereitgestellt: **[Anleitungen]({{<ref "anleitungen.md">}})**
+Hierfür haben wir Anleitungen zu den gängigsten Betriebssystemen bereitgestellt: **[Anleitungen]({{<ref "anleitungen.md">}})**
 
 ## 1. Hygiene
 
